@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="8"
-  DTS:VersionGUID="{A9C26F4E-8B11-4F93-B226-B7D4103294FE}">
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{227342C1-96CC-41F9-A398-D1F44A2AF3A1}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -323,7 +323,7 @@
                       cachedDataType="i4"
                       cachedName="MANGUON"
                       externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Insert Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[MANGUON]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[MANGUON]" />
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]" />
                     <inputColumn
                       refId="Package\NguonDuLieu_NDS_DDS\Insert Destination 1.Inputs[OLE DB Destination Input].Columns[TENNGUON]"
                       cachedCodepage="1252"
@@ -331,13 +331,13 @@
                       cachedLength="30"
                       cachedName="TENNGUON"
                       externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Insert Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[TENNGUON]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[TENNGUON]" />
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TENNGUON]" />
                     <inputColumn
                       refId="Package\NguonDuLieu_NDS_DDS\Insert Destination 1.Inputs[OLE DB Destination Input].Columns[TRANGTHAI]"
                       cachedDataType="bool"
                       cachedName="TRANGTHAI"
                       externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Insert Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[TRANGTHAI]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[TRANGTHAI]" />
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -436,7 +436,7 @@
                       cachedDataType="i4"
                       cachedName="MANGUON"
                       externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 2.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[MANGUON]" />
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]" />
                     <inputColumn
                       refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 2.Inputs[OLE DB Command Input].Columns[TENNGUON]"
                       cachedCodepage="1252"
@@ -444,13 +444,13 @@
                       cachedLength="30"
                       cachedName="TENNGUON"
                       externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 2.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[TENNGUON]" />
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TENNGUON]" />
                     <inputColumn
                       refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 2.Inputs[OLE DB Command Input].Columns[TRANGTHAI]"
                       cachedDataType="bool"
                       cachedName="TRANGTHAI"
                       externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 2.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[TRANGTHAI]" />
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -569,7 +569,7 @@
                       cachedDataType="i4"
                       cachedName="MANGUON"
                       externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 3.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[MANGUON]" />
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]" />
                     <inputColumn
                       refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 3.Inputs[OLE DB Command Input].Columns[TENNGUON]"
                       cachedCodepage="1252"
@@ -577,7 +577,7 @@
                       cachedLength="30"
                       cachedName="TENNGUON"
                       externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 3.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[TENNGUON]" />
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TENNGUON]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -633,190 +633,6 @@
                       refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 3.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 3.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source"
-              componentClassID="Microsoft.OLEDBSource"
-              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
-              description="OLE DB Source"
-              name="OLE DB Source"
-              usesDispositions="true"
-              version="7">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">0</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset"></property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the variable that contains the name of the database object used to open a rowset."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="The SQL command to be executed."
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from NguonDuLieu where (NgayTao &gt; ? and NgayTao &lt;= ?) or (NgayCapNhat &gt; ?  and NgayCapNhat &lt;= ?)</property>
-                <property
-                  dataType="System.String"
-                  description="The variable that contains the SQL command to be executed."
-                  name="SqlCommandVariable"></property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the column code page to use when code page information is unavailable from the data source."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Forces the use of the DefaultCodePage property value when describing character data."
-                  name="AlwaysUseDefaultCodePage">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the mode used to access the database."
-                  name="AccessMode"
-                  typeConverter="AccessMode">2</property>
-                <property
-                  dataType="System.String"
-                  description="The mappings between the parameters in the SQL command and variables."
-                  name="ParameterMapping">"Parameter0:Input",{532F9A63-2300-4BB9-9570-AF664132B29E};"Parameter1:Input",{CD8183F3-C48B-4CFE-AB6F-1C439A54C67C};"Parameter2:Input",{532F9A63-2300-4BB9-9570-AF664132B29E};"Parameter3:Input",{CD8183F3-C48B-4CFE-AB6F-1C439A54C67C};</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.NDS_LT]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.NDS_LT]"
-                  description="The OLE DB runtime connection used to access the database."
-                  name="OleDbConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output]"
-                  name="OLE DB Source Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[NGAYTAO]"
-                      dataType="dbTimeStamp"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NGAYTAO]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[NGAYTAO]"
-                      name="NGAYTAO"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]"
-                      dataType="dbTimeStamp"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NGAYCAPNHAT]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]"
-                      name="NGAYCAPNHAT"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[TRANGTHAI]"
-                      dataType="bool"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[TRANGTHAI]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[TRANGTHAI]"
-                      name="TRANGTHAI"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[MANGUON]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[MANGUON]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[MANGUON]"
-                      name="MANGUON"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[TENNGUON]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[TENNGUON]"
-                      length="30"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[TENNGUON]"
-                      name="TENNGUON"
-                      truncationRowDisposition="FailComponent" />
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NGAYTAO]"
-                      dataType="dbTimeStamp"
-                      name="NGAYTAO" />
-                    <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[NGAYCAPNHAT]"
-                      dataType="dbTimeStamp"
-                      name="NGAYCAPNHAT" />
-                    <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[TRANGTHAI]"
-                      dataType="bool"
-                      name="TRANGTHAI" />
-                    <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[MANGUON]"
-                      dataType="i4"
-                      name="MANGUON" />
-                    <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[TENNGUON]"
-                      codePage="1252"
-                      dataType="str"
-                      length="30"
-                      name="TENNGUON" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Error Output]"
-                  isErrorOut="true"
-                  name="OLE DB Source Error Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[MANGUON]"
-                      dataType="i4"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[MANGUON]"
-                      name="MANGUON" />
-                    <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[TENNGUON]"
-                      codePage="1252"
-                      dataType="str"
-                      length="30"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[TENNGUON]"
-                      name="TENNGUON" />
-                    <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NGAYTAO]"
-                      dataType="dbTimeStamp"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NGAYTAO]"
-                      name="NGAYTAO" />
-                    <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NGAYCAPNHAT]"
-                      dataType="dbTimeStamp"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[NGAYCAPNHAT]"
-                      name="NGAYCAPNHAT" />
-                    <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[TRANGTHAI]"
-                      dataType="bool"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[TRANGTHAI]"
-                      name="TRANGTHAI" />
-                    <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -889,7 +705,7 @@
                       cachedDataType="i4"
                       cachedName="MANGUON"
                       externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[MANGUON]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[MANGUON]">
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -904,7 +720,7 @@
                       cachedLength="30"
                       cachedName="TENNGUON"
                       externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[TENNGUON]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output].Columns[TENNGUON]">
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TENNGUON]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -979,6 +795,190 @@
                 </output>
               </outputs>
             </component>
+            <component
+              refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="Source_NguonDuLieu_NDS"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from NguonDuLieu where (NgayTao &gt; ? and NgayTao &lt;= ?) or (NgayCapNhat &gt; ?  and NgayCapNhat &lt;= ?)</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping">"Parameter0:Input",{532F9A63-2300-4BB9-9570-AF664132B29E};"Parameter1:Input",{CD8183F3-C48B-4CFE-AB6F-1C439A54C67C};"Parameter2:Input",{532F9A63-2300-4BB9-9570-AF664132B29E};"Parameter3:Input",{CD8183F3-C48B-4CFE-AB6F-1C439A54C67C};</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.NDS_LT]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.NDS_LT]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYTAO]"
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]"
+                      name="NGAYTAO"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYCAPNHAT]"
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]"
+                      name="NGAYCAPNHAT"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[TRANGTHAI]"
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]"
+                      name="TRANGTHAI"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[MANGUON]"
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]"
+                      name="MANGUON"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TENNGUON]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[TENNGUON]"
+                      length="30"
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TENNGUON]"
+                      name="TENNGUON"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYTAO]"
+                      dataType="dbTimeStamp"
+                      name="NGAYTAO" />
+                    <externalMetadataColumn
+                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYCAPNHAT]"
+                      dataType="dbTimeStamp"
+                      name="NGAYCAPNHAT" />
+                    <externalMetadataColumn
+                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[TRANGTHAI]"
+                      dataType="bool"
+                      name="TRANGTHAI" />
+                    <externalMetadataColumn
+                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[MANGUON]"
+                      dataType="i4"
+                      name="MANGUON" />
+                    <externalMetadataColumn
+                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[TENNGUON]"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
+                      name="TENNGUON" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[MANGUON]"
+                      dataType="i4"
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[MANGUON]"
+                      name="MANGUON" />
+                    <outputColumn
+                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[TENNGUON]"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[TENNGUON]"
+                      name="TENNGUON" />
+                    <outputColumn
+                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYTAO]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYTAO]"
+                      name="NGAYTAO" />
+                    <outputColumn
+                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYCAPNHAT]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYCAPNHAT]"
+                      name="NGAYCAPNHAT" />
+                    <outputColumn
+                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[TRANGTHAI]"
+                      dataType="bool"
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[TRANGTHAI]"
+                      name="TRANGTHAI" />
+                    <outputColumn
+                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
           </components>
           <paths>
             <path
@@ -1005,7 +1005,7 @@
               refId="Package\NguonDuLieu_NDS_DDS.Paths[OLE DB Source Output]"
               endId="Package\NguonDuLieu_NDS_DDS\Derived Column.Inputs[Derived Column Input]"
               name="OLE DB Source Output"
-              startId="Package\NguonDuLieu_NDS_DDS\OLE DB Source.Outputs[OLE DB Source Output]" />
+              startId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -1090,41 +1090,41 @@
         <NodeLayout
           Size="195,42"
           Id="Package\NguonDuLieu_NDS_DDS"
-          TopLeft="302,296" />
+          TopLeft="245,296" />
         <NodeLayout
           Size="116,42"
           Id="Package\Set CET"
-          TopLeft="119,76" />
+          TopLeft="246,67" />
         <NodeLayout
           Size="121,42"
           Id="Package\Set LSET"
           TopLeft="164.5,430.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="177,118">
+          TopLeft="304,109">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="10,49.5"
+              EndConnector="-117,58.5"
               Start="0,0"
-              End="10,42">
+              End="-117,51">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20.75" />
+                    End="0,25.25" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,20.75"
-                    Point2="0,24.75"
-                    Point3="4,24.75" />
+                    Point1="0,25.25"
+                    Point2="0,29.25"
+                    Point3="-4,29.25" />
                   <mssgle:LineSegment
-                    End="6,24.75" />
+                    End="-113,29.25" />
                   <mssgle:CubicBezierSegment
-                    Point1="6,24.75"
-                    Point2="10,24.75"
-                    Point3="10,28.75" />
+                    Point1="-113,29.25"
+                    Point2="-117,29.25"
+                    Point3="-117,33.25" />
                   <mssgle:LineSegment
-                    End="10,42" />
+                    End="-117,51" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1139,9 +1139,9 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="212.5,86.5"
+              EndConnector="155.5,86.5"
               Start="0,0"
-              End="212.5,79">
+              End="155.5,79">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -1152,13 +1152,13 @@
                     Point2="0,43.25"
                     Point3="4,43.25" />
                   <mssgle:LineSegment
-                    End="208.5,43.25" />
+                    End="151.5,43.25" />
                   <mssgle:CubicBezierSegment
-                    Point1="208.5,43.25"
-                    Point2="212.5,43.25"
-                    Point3="212.5,47.25" />
+                    Point1="151.5,43.25"
+                    Point2="155.5,43.25"
+                    Point3="155.5,47.25" />
                   <mssgle:LineSegment
-                    End="212.5,79" />
+                    End="155.5,79" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1169,13 +1169,13 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="399.5,338">
+          TopLeft="342.5,338">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-174.5,92.5"
+              EndConnector="-117.5,92.5"
               Start="0,0"
-              End="-174.5,85">
+              End="-117.5,85">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -1186,13 +1186,13 @@
                     Point2="0,46.25"
                     Point3="-4,46.25" />
                   <mssgle:LineSegment
-                    End="-170.5,46.25" />
+                    End="-113.5,46.25" />
                   <mssgle:CubicBezierSegment
-                    Point1="-170.5,46.25"
-                    Point2="-174.5,46.25"
-                    Point3="-174.5,50.25" />
+                    Point1="-113.5,46.25"
+                    Point2="-117.5,46.25"
+                    Point3="-117.5,50.25" />
                   <mssgle:LineSegment
-                    End="-174.5,85" />
+                    End="-117.5,85" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1210,31 +1210,55 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="150,42"
-          Id="Package\NguonDuLieu_NDS_DDS\OLE DB Source"
-          TopLeft="712.5,5.5" />
+          Size="172,42"
+          Id="Package\NguonDuLieu_NDS_DDS\Insert Destination 1"
+          TopLeft="467.5,311.5" />
         <NodeLayout
           Size="209,42"
           Id="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension"
           TopLeft="683,209.5" />
+        <NodeLayout
+          Size="175,42"
+          Id="Package\NguonDuLieu_NDS_DDS\OLE DB Command 3"
+          TopLeft="936,311.5" />
+        <NodeLayout
+          Size="206,42"
+          Id="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS"
+          TopLeft="712.5,5.5" />
+        <NodeLayout
+          Size="175,42"
+          Id="Package\NguonDuLieu_NDS_DDS\OLE DB Command 2"
+          TopLeft="700,311.5" />
         <NodeLayout
           Size="154,42"
           Id="Package\NguonDuLieu_NDS_DDS\Derived Column"
           TopLeft="710.5,107.5" />
         <EdgeLayout
           Id="Package\NguonDuLieu_NDS_DDS.Paths[OLE DB Source Output]"
-          TopLeft="787.5,47.5">
+          TopLeft="815.5,47.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="-28,60"
               Start="0,0"
-              End="0,52.5">
+              End="-28,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-24,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-24,30"
+                    Point2="-28,30"
+                    Point3="-28,34" />
+                  <mssgle:LineSegment
+                    End="-28,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1243,32 +1267,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\NguonDuLieu_NDS_DDS.Paths[Derived Column Output]"
-          TopLeft="787.5,149.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="172,42"
-          Id="Package\NguonDuLieu_NDS_DDS\Insert Destination 1"
-          TopLeft="467.5,311.5" />
         <EdgeLayout
           Id="Package\NguonDuLieu_NDS_DDS.Paths[New Output]"
           TopLeft="737.25,251.5">
@@ -1305,10 +1303,6 @@
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="175,42"
-          Id="Package\NguonDuLieu_NDS_DDS\OLE DB Command 2"
-          TopLeft="700,311.5" />
         <EdgeLayout
           Id="Package\NguonDuLieu_NDS_DDS.Paths[Inferred Member Updates Output]"
           TopLeft="787.5,251.5">
@@ -1333,10 +1327,28 @@
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="175,42"
-          Id="Package\NguonDuLieu_NDS_DDS\OLE DB Command 3"
-          TopLeft="936,311.5" />
+        <EdgeLayout
+          Id="Package\NguonDuLieu_NDS_DDS.Paths[Derived Column Output]"
+          TopLeft="787.5,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\NguonDuLieu_NDS_DDS.Paths[Changing Attribute Updates Output]"
           TopLeft="837.75,251.5">
@@ -1377,10 +1389,15 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\NguonDuLieu_NDS_DDS\OLE DB Source">
+    design-time-name="Package\NguonDuLieu_NDS_DDS\Insert Destination 1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -1435,15 +1452,10 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\NguonDuLieu_NDS_DDS\Insert Destination 1">
+    design-time-name="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
