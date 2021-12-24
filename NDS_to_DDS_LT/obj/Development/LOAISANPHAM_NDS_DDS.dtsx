@@ -1,74 +1,26 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
-  DTS:CreationDate="12/23/2021 2:08:55 PM"
+  DTS:CreationDate="12/23/2021 11:15:50 PM"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-CEE9UFA"
   DTS:CreatorName="DESKTOP-CEE9UFA\Chi Duyy"
-  DTS:DTSID="{8E2A4F35-BCF0-4EE0-B961-3791711700FE}"
+  DTS:DTSID="{CBD25344-51A9-4639-86A1-621004F384AC}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.170"
   DTS:LocaleID="1033"
-  DTS:ObjectName="Package"
+  DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="11"
-  DTS:VersionGUID="{6AAA237E-FC20-4FF9-A242-5A97D9A0A44B}">
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{43F37629-C49E-41DD-93C1-A587E89F7235}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{34FE0AE9-478D-4AE0-B4B6-9046ED8A6D3A}"
-      DTS:ObjectName="DESKTOP-CEE9UFA\CDUYY.DDS">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-CEE9UFA\CDUYY;Initial Catalog=DDS;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{0B453057-1F71-49D9-9064-C98D10267743}"
+      DTS:DTSID="{0D87EAB6-CF72-4C7E-B9B4-8C19A075B8B3}"
       DTS:ObjectName="DESKTOP-CEE9UFA\CDUYY.DDS_LT">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-CEE9UFA\CDUYY;Initial Catalog=DDS_LT;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT 1]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{55A2C5BF-20F5-4C7C-8DC0-C41004BE6C56}"
-      DTS:ObjectName="DESKTOP-CEE9UFA\CDUYY.DDS_LT 1">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-CEE9UFA\CDUYY;Initial Catalog=DDS_LT;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT 2]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{8532A1F5-FD98-4316-8CA7-2E9D69C4C6B9}"
-      DTS:ObjectName="DESKTOP-CEE9UFA\CDUYY.DDS_LT 2">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-CEE9UFA\CDUYY;Initial Catalog=DDS_LT;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT 3]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{C18E5E13-EE4E-4596-B3B7-BE4C7B481C03}"
-      DTS:ObjectName="DESKTOP-CEE9UFA\CDUYY.DDS_LT 3">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
@@ -79,7 +31,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.MetaData]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{A88DFD8C-D630-469E-8381-07DF807F2952}"
+      DTS:DTSID="{1742BBFE-F24E-47B0-B147-20E95CCCA252}"
       DTS:ObjectName="DESKTOP-CEE9UFA\CDUYY.MetaData">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -91,20 +43,20 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.NDS_LT]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{8CC3AB70-077E-43CF-ACB5-D6AEFE1E20DE}"
+      DTS:DTSID="{F3271649-9B25-45E3-A193-619D159419CF}"
       DTS:ObjectName="DESKTOP-CEE9UFA\CDUYY.NDS_LT">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-CEE9UFA\CDUYY;Initial Catalog=NDS_LT;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=DESKTOP-CEE9UFA\CDUYY;Initial Catalog=NDS_LT;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{3F162BEE-53CC-49E7-8B3A-0B3D6BF86520}"
+      DTS:DTSID="{283105D7-181B-47DE-B49F-DD74DFED58A2}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="CET">
@@ -114,7 +66,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{46B3DEEE-EBEB-4FDA-B01C-0DA6E3A72EFC}"
+      DTS:DTSID="{EA265624-A32F-4E5A-932D-90C110B16191}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="LSET">
@@ -122,33 +74,23 @@
         DTS:DataType="8"
         xml:space="preserve"></DTS:VariableValue>
     </DTS:Variable>
-    <DTS:Variable
-      DTS:CreationName=""
-      DTS:DTSID="{34F491FC-8520-49CC-89D8-E0D26D5EFC5A}"
-      DTS:IncludeInDebugDump="2345"
-      DTS:Namespace="User"
-      DTS:ObjectName="Variable">
-      <DTS:VariableValue
-        DTS:DataType="8"
-        xml:space="preserve"></DTS:VariableValue>
-    </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Get LSET"
+      DTS:refId="Package\GET LSET"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:DTSID="{CDF3F6A3-022F-4A0B-BF41-03CF5FC59E78}"
+      DTS:DTSID="{8deee89a-c8d2-47fd-be47-468f234275e1}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Get LSET"
+      DTS:ObjectName="GET LSET"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
       DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{A88DFD8C-D630-469E-8381-07DF807F2952}"
-          SQLTask:SqlStatementSource="select LSET, CET from data_flow where name = 'LoaiCuaHang'"
+          SQLTask:Connection="{1742BBFE-F24E-47B0-B147-20E95CCCA252}"
+          SQLTask:SqlStatementSource="select LSET, CET from data_flow where name = 'LOAISANPHAM'"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="LSET"
@@ -160,13 +102,13 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\LoaiCuaHang_NDS_DDS"
+      DTS:refId="Package\LoaiSanPham_NDS_DDS"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{C1C7A254-F784-4557-8AD9-E8DB5E5C7F20}"
+      DTS:DTSID="{cb271ed0-8ef6-4a51-b907-f9208e7ebf92}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="LoaiCuaHang_NDS_DDS"
+      DTS:ObjectName="LoaiSanPham_NDS_DDS"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -174,7 +116,7 @@
           version="1">
           <components>
             <component
-              refId="Package\LoaiCuaHang_NDS_DDS\Derived Column"
+              refId="Package\LoaiSanPham_NDS_DDS\Derived Column"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
               description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
@@ -182,87 +124,85 @@
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\LoaiCuaHang_NDS_DDS\Derived Column.Inputs[Derived Column Input]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Derived Column.Inputs[Derived Column Input]"
                   description="Input to the Derived Column Transformation"
                   name="Derived Column Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Derived Column.Inputs[Derived Column Input].Columns[NGAYTAO]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="NGAYTAO"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]"
-                      truncationRowDisposition="FailComponent"
-                      usageType="readWrite">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">[GETDATE]()</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">GETDATE()</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Derived Column.Inputs[Derived Column Input].Columns[NGAYCAPNHAT]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="NGAYCAPNHAT"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]"
-                      truncationRowDisposition="FailComponent"
-                      usageType="readWrite">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">[GETDATE]()</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">GETDATE()</property>
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
                   <externalMetadataColumns />
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\Derived Column.Outputs[Derived Column Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output]"
                   description="Default Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   name="Derived Column Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\Derived Column.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[ngaycapnhat]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[ngaycapnhat]"
+                      name="ngaycapnhat"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[GETDATE]()</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">GETDATE()</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[ngaytao]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[ngaytao]"
+                      name="ngaytao"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[GETDATE]()</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">GETDATE()</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\Derived Column.Outputs[Derived Column Error Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Error Output]"
                   description="Error Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Derived Column Error Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\Derived Column.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\Derived Column.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -271,7 +211,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\LoaiCuaHang_NDS_DDS\Derived Column 1"
+              refId="Package\LoaiSanPham_NDS_DDS\Derived Column 1"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
               description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
@@ -279,17 +219,17 @@
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\LoaiCuaHang_NDS_DDS\Derived Column 1.Inputs[Derived Column Input]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Derived Column 1.Inputs[Derived Column Input]"
                   description="Input to the Derived Column Transformation"
                   name="Derived Column Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Derived Column 1.Inputs[Derived Column Input].Columns[TRANGTHAI]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Derived Column 1.Inputs[Derived Column Input].Columns[TRANGTHAI]"
                       cachedDataType="bool"
                       cachedName="TRANGTHAI"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]"
                       truncationRowDisposition="FailComponent"
                       usageType="readWrite">
                       <properties>
@@ -312,31 +252,31 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\Derived Column 1.Outputs[Derived Column Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Derived Column 1.Outputs[Derived Column Output]"
                   description="Default Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   name="Derived Column Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\Derived Column 1.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\Derived Column 1.Inputs[Derived Column Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\Derived Column 1.Outputs[Derived Column Error Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Derived Column 1.Outputs[Derived Column Error Output]"
                   description="Error Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Derived Column Error Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\Derived Column 1.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\Derived Column 1.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -345,7 +285,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\LoaiCuaHang_NDS_DDS\Derived Column 2"
+              refId="Package\LoaiSanPham_NDS_DDS\Derived Column 2"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
               description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
@@ -353,17 +293,17 @@
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\LoaiCuaHang_NDS_DDS\Derived Column 2.Inputs[Derived Column Input]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Derived Column 2.Inputs[Derived Column Input]"
                   description="Input to the Derived Column Transformation"
                   name="Derived Column Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Derived Column 2.Inputs[Derived Column Input].Columns[TRANGTHAI]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Derived Column 2.Inputs[Derived Column Input].Columns[TRANGTHAI]"
                       cachedDataType="bool"
                       cachedName="TRANGTHAI"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TRANGTHAI]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TRANGTHAI]"
                       truncationRowDisposition="FailComponent"
                       usageType="readWrite">
                       <properties>
@@ -386,31 +326,31 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\Derived Column 2.Outputs[Derived Column Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Derived Column 2.Outputs[Derived Column Output]"
                   description="Default Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   name="Derived Column Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\Derived Column 2.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\Derived Column 2.Inputs[Derived Column Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\Derived Column 2.Outputs[Derived Column Error Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Derived Column 2.Outputs[Derived Column Error Output]"
                   description="Error Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Derived Column Error Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\Derived Column 2.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\Derived Column 2.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Derived Column 2.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Derived Column 2.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Derived Column 2.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column 2.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Derived Column 2.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Derived Column 2.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Derived Column 2.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column 2.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -419,7 +359,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination"
+              refId="Package\LoaiSanPham_NDS_DDS\Insert Destination"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
@@ -434,7 +374,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[LOAICUAHANG]</property>
+                  name="OpenRowset">[dbo].[LOAISANPHAM]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -476,7 +416,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Connections[OleDbConnection]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   description="The OLE DB runtime connection used to access the database."
@@ -484,91 +424,91 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[MALOAICH]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[MALOAISP]"
                       cachedDataType="i4"
-                      cachedName="MALOAICH"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MALOAICH]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAICH]" />
+                      cachedName="MALOAISP"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MALOAISP]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAISP]" />
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[MALOAICH_NGUON]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[MALOAISP_NGUON]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="10"
-                      cachedName="MALOAICH_NGUON"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MALOAICH_NGUON]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAICH_NGUON]" />
+                      cachedName="MALOAISP_NGUON"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MALOAISP_NGUON]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAISP_NGUON]" />
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[TENLOAICH]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[TENLOAISP]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
-                      cachedName="TENLOAICH"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[TENLOAICH]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TENLOAICH]" />
+                      cachedName="TENLOAISP"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[TENLOAISP]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TENLOAISP]" />
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[NGAYTAO]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[ngaytao]"
                       cachedDataType="dbTimeStamp"
-                      cachedName="NGAYTAO"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYTAO]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYTAO]" />
+                      cachedName="ngaytao"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYTAO]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaytao]" />
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[NGAYCAPNHAT]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[ngaycapnhat]"
                       cachedDataType="dbTimeStamp"
-                      cachedName="NGAYCAPNHAT"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYCAPNHAT]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYCAPNHAT]" />
+                      cachedName="ngaycapnhat"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYCAPNHAT]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaycapnhat]" />
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[TRANGTHAI]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[TRANGTHAI]"
                       cachedDataType="bool"
                       cachedName="TRANGTHAI"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[TRANGTHAI]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TRANGTHAI]" />
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[TRANGTHAI]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TRANGTHAI]" />
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[MANGUON]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[MANGUON]"
                       cachedDataType="i4"
                       cachedName="MANGUON"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MANGUON]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MANGUON]" />
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MANGUON]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MANGUON]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MALOAICH]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MALOAISP]"
                       dataType="i4"
-                      name="MALOAICH" />
+                      name="MALOAISP" />
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MALOAICH_NGUON]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MALOAISP_NGUON]"
                       codePage="1252"
                       dataType="str"
                       length="10"
-                      name="MALOAICH_NGUON" />
+                      name="MALOAISP_NGUON" />
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[TENLOAICH]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[TENLOAISP]"
                       codePage="1252"
                       dataType="str"
                       length="50"
-                      name="TENLOAICH" />
+                      name="TENLOAISP" />
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYTAO]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYTAO]"
                       dataType="dbTimeStamp"
                       name="NGAYTAO" />
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYCAPNHAT]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYCAPNHAT]"
                       dataType="dbTimeStamp"
                       name="NGAYCAPNHAT" />
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[TRANGTHAI]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[TRANGTHAI]"
                       dataType="bool"
                       name="TRANGTHAI" />
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MANGUON]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MANGUON]"
                       dataType="i4"
                       name="MANGUON" />
                   </externalMetadataColumns>
@@ -576,22 +516,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -600,233 +540,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS"
-              componentClassID="Microsoft.OLEDBSource"
-              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
-              description="OLE DB Source"
-              name="LoaiCuaHang_NDS"
-              usesDispositions="true"
-              version="7">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">0</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset"></property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the variable that contains the name of the database object used to open a rowset."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="The SQL command to be executed."
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from LoaiCuaHang where (NgayTao &gt; ? and NgayTao &lt;= ?) or (NgayCapNhat &gt; ?  and NgayCapNhat &lt;= ?)</property>
-                <property
-                  dataType="System.String"
-                  description="The variable that contains the SQL command to be executed."
-                  name="SqlCommandVariable"></property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the column code page to use when code page information is unavailable from the data source."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Forces the use of the DefaultCodePage property value when describing character data."
-                  name="AlwaysUseDefaultCodePage">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the mode used to access the database."
-                  name="AccessMode"
-                  typeConverter="AccessMode">2</property>
-                <property
-                  dataType="System.String"
-                  description="The mappings between the parameters in the SQL command and variables."
-                  name="ParameterMapping">"Parameter0:Input",{46B3DEEE-EBEB-4FDA-B01C-0DA6E3A72EFC};"Parameter1:Input",{3F162BEE-53CC-49E7-8B3A-0B3D6BF86520};"Parameter2:Input",{46B3DEEE-EBEB-4FDA-B01C-0DA6E3A72EFC};"Parameter3:Input",{3F162BEE-53CC-49E7-8B3A-0B3D6BF86520};</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.NDS_LT]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.NDS_LT]"
-                  description="The OLE DB runtime connection used to access the database."
-                  name="OleDbConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output]"
-                  name="OLE DB Source Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MALOAICH]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].ExternalColumns[MALOAICH]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MALOAICH]"
-                      name="MALOAICH"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MALOAICH_NGUON]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].ExternalColumns[MALOAICH_NGUON]"
-                      length="10"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MALOAICH_NGUON]"
-                      name="MALOAICH_NGUON"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[TENLOAICH]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].ExternalColumns[TENLOAICH]"
-                      length="50"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[TENLOAICH]"
-                      name="TENLOAICH"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]"
-                      dataType="dbTimeStamp"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYTAO]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]"
-                      name="NGAYTAO"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]"
-                      dataType="dbTimeStamp"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYCAPNHAT]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]"
-                      name="NGAYCAPNHAT"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]"
-                      dataType="bool"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].ExternalColumns[TRANGTHAI]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]"
-                      name="TRANGTHAI"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].ExternalColumns[MANGUON]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]"
-                      name="MANGUON"
-                      truncationRowDisposition="FailComponent" />
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].ExternalColumns[MALOAICH]"
-                      dataType="i4"
-                      name="MALOAICH" />
-                    <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].ExternalColumns[MALOAICH_NGUON]"
-                      codePage="1252"
-                      dataType="str"
-                      length="10"
-                      name="MALOAICH_NGUON" />
-                    <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].ExternalColumns[TENLOAICH]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="TENLOAICH" />
-                    <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYTAO]"
-                      dataType="dbTimeStamp"
-                      name="NGAYTAO" />
-                    <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYCAPNHAT]"
-                      dataType="dbTimeStamp"
-                      name="NGAYCAPNHAT" />
-                    <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].ExternalColumns[TRANGTHAI]"
-                      dataType="bool"
-                      name="TRANGTHAI" />
-                    <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].ExternalColumns[MANGUON]"
-                      dataType="i4"
-                      name="MANGUON" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output]"
-                  isErrorOut="true"
-                  name="OLE DB Source Error Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[MALOAICH]"
-                      dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[MALOAICH]"
-                      name="MALOAICH" />
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[MALOAICH_NGUON]"
-                      codePage="1252"
-                      dataType="str"
-                      length="10"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[MALOAICH_NGUON]"
-                      name="MALOAICH_NGUON" />
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[TENLOAICH]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[TENLOAICH]"
-                      name="TENLOAICH" />
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYTAO]"
-                      dataType="dbTimeStamp"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYTAO]"
-                      name="NGAYTAO" />
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYCAPNHAT]"
-                      dataType="dbTimeStamp"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYCAPNHAT]"
-                      name="NGAYCAPNHAT" />
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[TRANGTHAI]"
-                      dataType="bool"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[TRANGTHAI]"
-                      name="TRANGTHAI" />
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[MANGUON]"
-                      dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[MANGUON]"
-                      name="MANGUON" />
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command"
+              refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command"
               componentClassID="Microsoft.OLEDBCommand"
               contactInfo="OLE DB Command;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
               description="Runs an SQL statement for each row in a data flow. For example, call a 'new employee setup' stored procedure for each row in the 'new employees' table. Note: running an SQL statement for each row of a large data flow may take a long time."
@@ -843,7 +557,7 @@
                   description="The SQL command to be executed."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[LOAICUAHANG] SET [TRANGTHAI] = ? WHERE [MALOAICH] = ? AND [TRANGTHAI] = '1'</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[LOAISANPHAM] SET [TRANGTHAI] = ? WHERE [MALOAISP] = ? AND [TRANGTHAI] = '1'</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -851,7 +565,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Connections[OleDbConnection]"
+                  refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   description="The OLE DB runtime connection used to access the database."
@@ -859,29 +573,29 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input]"
+                  refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input]"
                   errorOrTruncationOperation="Command Execution"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Command Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].Columns[MALOAICH]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].Columns[MALOAISP]"
                       cachedDataType="i4"
-                      cachedName="MALOAICH"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MALOAICH]" />
+                      cachedName="MALOAISP"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MALOAISP]" />
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].Columns[TRANGTHAI]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].Columns[TRANGTHAI]"
                       cachedDataType="bool"
                       cachedName="TRANGTHAI"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]" />
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
                       dataType="bool"
                       name="Param_0">
                       <properties>
@@ -892,7 +606,7 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
                       dataType="i4"
                       name="Param_1">
                       <properties>
@@ -907,29 +621,29 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Output]"
                   exclusionGroup="1"
                   name="OLE DB Command Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Command Error Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -938,7 +652,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1"
+              refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1"
               componentClassID="Microsoft.OLEDBCommand"
               contactInfo="OLE DB Command;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
               description="Runs an SQL statement for each row in a data flow. For example, call a 'new employee setup' stored procedure for each row in the 'new employees' table. Note: running an SQL statement for each row of a large data flow may take a long time."
@@ -955,7 +669,7 @@
                   description="The SQL command to be executed."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[LOAICUAHANG] SET [MALOAICH_NGUON] = ?,[MANGUON] = ?,[NGAYCAPNHAT] = ?,[NGAYTAO] = ?,[TENLOAICH] = ?,[TRANGTHAI] = ? WHERE [MALOAICH] = ?</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[LOAISANPHAM] SET [MALOAISP_NGUON] = ?,[MANGUON] = ?,[NGAYCAPNHAT] = ?,[NGAYTAO] = ?,[TENLOAISP] = ?,[TRANGTHAI] = ? WHERE [MALOAISP] = ?</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -963,7 +677,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Connections[OleDbConnection]"
+                  refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   description="The OLE DB runtime connection used to access the database."
@@ -971,63 +685,63 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input]"
+                  refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input]"
                   errorOrTruncationOperation="Command Execution"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Command Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[MALOAICH]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[MALOAISP]"
                       cachedDataType="i4"
-                      cachedName="MALOAICH"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MALOAICH]" />
+                      cachedName="MALOAISP"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MALOAISP]" />
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[MALOAICH_NGUON]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[MALOAISP_NGUON]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="10"
-                      cachedName="MALOAICH_NGUON"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MALOAICH_NGUON]" />
+                      cachedName="MALOAISP_NGUON"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MALOAISP_NGUON]" />
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[MANGUON]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[MANGUON]"
                       cachedDataType="i4"
                       cachedName="MANGUON"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]" />
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]" />
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[NGAYCAPNHAT]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[ngaycapnhat]"
                       cachedDataType="dbTimeStamp"
-                      cachedName="NGAYCAPNHAT"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]" />
+                      cachedName="ngaycapnhat"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[ngaycapnhat]" />
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[NGAYTAO]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[ngaytao]"
                       cachedDataType="dbTimeStamp"
-                      cachedName="NGAYTAO"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]" />
+                      cachedName="ngaytao"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[ngaytao]" />
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[TENLOAICH]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[TENLOAISP]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
-                      cachedName="TENLOAICH"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[TENLOAICH]" />
+                      cachedName="TENLOAISP"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[TENLOAISP]" />
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[TRANGTHAI]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[TRANGTHAI]"
                       cachedDataType="bool"
                       cachedName="TRANGTHAI"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]" />
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
                       codePage="1252"
                       dataType="str"
                       length="10"
@@ -1040,7 +754,7 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
                       dataType="i4"
                       name="Param_1">
                       <properties>
@@ -1051,7 +765,7 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
                       dataType="dbTimeStamp"
                       name="Param_2">
                       <properties>
@@ -1062,7 +776,7 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
                       dataType="dbTimeStamp"
                       name="Param_3">
                       <properties>
@@ -1073,7 +787,7 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
                       codePage="1252"
                       dataType="str"
                       length="50"
@@ -1086,7 +800,7 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
                       dataType="bool"
                       name="Param_5">
                       <properties>
@@ -1097,7 +811,7 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
                       dataType="i4"
                       name="Param_6">
                       <properties>
@@ -1112,29 +826,29 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Output]"
                   exclusionGroup="1"
                   name="OLE DB Command Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Command Error Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1143,7 +857,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension"
+              refId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension"
               componentClassID="Microsoft.SCD"
               contactInfo="Slowly Changing Dimension;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;3"
               description="Updates a SQL Server Analysis Services data warehouse dimension. Update dimension records that are already present and  insert dimension records that aren't. For example, update the DimProduct table of the AdventureWorksDW OLAP database with data from the Products table in the AdventureWorks OLTP database."
@@ -1154,7 +868,7 @@
                   dataType="System.String"
                   description="Specifies the SELECT statement used to create a schema rowset."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT [MALOAICH], [TENLOAICH], [TRANGTHAI] FROM [dbo].[LOAICUAHANG]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT [MALOAISP], [TENLOAISP], [TRANGTHAI] FROM [dbo].[LOAISANPHAM]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the WHERE clause in the SELECT statement that selects the current row among rows with identical business keys."
@@ -1191,7 +905,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Connections[LookupConnection]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Connections[LookupConnection]"
                   connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   description="Defines the connection to use for lookups in the dimension table"
@@ -1199,15 +913,15 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
                   name="Slowly Changing Dimension Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[MALOAICH]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[MALOAISP]"
                       cachedDataType="i4"
-                      cachedName="MALOAICH"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[MALOAICH]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MALOAICH]">
+                      cachedName="MALOAISP"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[MALOAISP]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MALOAISP]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1216,13 +930,13 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[TENLOAICH]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[TENLOAISP]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
-                      cachedName="TENLOAICH"
-                      externalMetadataColumnId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[TENLOAICH]"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[TENLOAICH]">
+                      cachedName="TENLOAISP"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[TENLOAISP]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[TENLOAISP]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -1234,17 +948,17 @@
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[MALOAICH]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[MALOAISP]"
                       dataType="i4"
-                      name="MALOAICH" />
+                      name="MALOAISP" />
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[TENLOAICH]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[TENLOAISP]"
                       codePage="1252"
                       dataType="str"
                       length="50"
-                      name="TENLOAICH" />
+                      name="TENLOAISP" />
                     <externalMetadataColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[TRANGTHAI]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[TRANGTHAI]"
                       dataType="bool"
                       name="TRANGTHAI" />
                   </externalMetadataColumns>
@@ -1252,61 +966,287 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Outputs[Unchanged Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Outputs[Unchanged Output]"
                   description="Unchanged rows"
                   exclusionGroup="1"
                   name="Unchanged Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Outputs[New Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Outputs[New Output]"
                   description="New rows"
                   exclusionGroup="1"
                   name="New Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Outputs[Fixed Attribute Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Outputs[Fixed Attribute Output]"
                   description="Rows with changes in columns tagged FixedAttribute"
                   exclusionGroup="1"
                   name="Fixed Attribute Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Outputs[Changing Attribute Updates Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Outputs[Changing Attribute Updates Output]"
                   description="These rows contain new information for ChangingAttribute (Type 1) column changes"
                   exclusionGroup="1"
                   name="Changing Attribute Updates Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Outputs[Historical Attribute Inserts Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Outputs[Historical Attribute Inserts Output]"
                   description="HistoricalAttribute (Type 2) changes result in these new rows"
                   exclusionGroup="2"
                   name="Historical Attribute Inserts Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Outputs[Inferred Member Updates Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Outputs[Inferred Member Updates Output]"
                   description="Information to update unpopulated initial dimension row"
                   exclusionGroup="1"
                   name="Inferred Member Updates Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
               </outputs>
             </component>
             <component
-              refId="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua"
+              refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="Source_LoaiSanPham_NDS"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[LOAISANPHAM]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from LOAISANPHAM where (NgayTao &gt; ? and NgayTao &lt;= ?) or (NgayCapNhat &gt; ?  and NgayCapNhat &lt;= ?)</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping">"Parameter0:Input",{EA265624-A32F-4E5A-932D-90C110B16191};"Parameter1:Input",{283105D7-181B-47DE-B49F-DD74DFED58A2};"Parameter2:Input",{EA265624-A32F-4E5A-932D-90C110B16191};"Parameter3:Input",{283105D7-181B-47DE-B49F-DD74DFED58A2};</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.NDS_LT]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.NDS_LT]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYTAO]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]"
+                      name="NGAYTAO"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYCAPNHAT]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]"
+                      name="NGAYCAPNHAT"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].ExternalColumns[TRANGTHAI]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]"
+                      name="TRANGTHAI"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].ExternalColumns[MANGUON]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]"
+                      name="MANGUON"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MALOAISP]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].ExternalColumns[MALOAISP]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MALOAISP]"
+                      name="MALOAISP"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MALOAISP_NGUON]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].ExternalColumns[MALOAISP_NGUON]"
+                      length="10"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MALOAISP_NGUON]"
+                      name="MALOAISP_NGUON"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[TENLOAISP]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].ExternalColumns[TENLOAISP]"
+                      length="50"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[TENLOAISP]"
+                      name="TENLOAISP"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYTAO]"
+                      dataType="dbTimeStamp"
+                      name="NGAYTAO" />
+                    <externalMetadataColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYCAPNHAT]"
+                      dataType="dbTimeStamp"
+                      name="NGAYCAPNHAT" />
+                    <externalMetadataColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].ExternalColumns[TRANGTHAI]"
+                      dataType="bool"
+                      name="TRANGTHAI" />
+                    <externalMetadataColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].ExternalColumns[MANGUON]"
+                      dataType="i4"
+                      name="MANGUON" />
+                    <externalMetadataColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].ExternalColumns[MALOAISP]"
+                      dataType="i4"
+                      name="MALOAISP" />
+                    <externalMetadataColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].ExternalColumns[MALOAISP_NGUON]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="MALOAISP_NGUON" />
+                    <externalMetadataColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].ExternalColumns[TENLOAISP]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="TENLOAISP" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[MALOAISP]"
+                      dataType="i4"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[MALOAISP]"
+                      name="MALOAISP" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[MALOAISP_NGUON]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[MALOAISP_NGUON]"
+                      name="MALOAISP_NGUON" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[TENLOAISP]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[TENLOAISP]"
+                      name="TENLOAISP" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[MANGUON]"
+                      dataType="i4"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[MANGUON]"
+                      name="MANGUON" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYTAO]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYTAO]"
+                      name="NGAYTAO" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYCAPNHAT]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYCAPNHAT]"
+                      name="NGAYCAPNHAT" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[TRANGTHAI]"
+                      dataType="bool"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[TRANGTHAI]"
+                      name="TRANGTHAI" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?"
               componentClassID="Microsoft.Lookup"
               contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
               description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
-              name="Tim xem nguon du lieu da ton tai chua"
+              name="Tim kiem ma nguon co ton tai chua?"
               usesDispositions="true"
               version="6">
               <properties>
@@ -1358,7 +1298,7 @@ where [refTable].[MANGUON] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]};</property>
+                  name="ParameterMap">#{Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -1370,7 +1310,7 @@ where [refTable].[MANGUON] = ?</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua.Connections[OleDbConnection]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   description="Connection manager used to access lookup data."
@@ -1378,14 +1318,14 @@ where [refTable].[MANGUON] = ?</property>
               </connections>
               <inputs>
                 <input
-                  refId="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua.Inputs[Lookup Input]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Inputs[Lookup Input]"
                   name="Lookup Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua.Inputs[Lookup Input].Columns[MANGUON]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Inputs[Lookup Input].Columns[MANGUON]"
                       cachedDataType="i4"
                       cachedName="MANGUON"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]">
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]">
                       <properties>
                         <property
                           dataType="System.String"
@@ -1403,39 +1343,39 @@ where [refTable].[MANGUON] = ?</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua.Outputs[Lookup Match Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Outputs[Lookup Match Output]"
                   errorOrTruncationOperation="Lookup"
                   errorRowDisposition="RedirectRow"
                   exclusionGroup="1"
                   name="Lookup Match Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua.Inputs[Lookup Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Inputs[Lookup Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua.Outputs[Lookup No Match Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Outputs[Lookup No Match Output]"
                   description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
                   exclusionGroup="1"
                   name="Lookup No Match Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua.Inputs[Lookup Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Inputs[Lookup Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua.Outputs[Lookup Error Output]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Outputs[Lookup Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Lookup Error Output"
-                  synchronousInputId="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua.Inputs[Lookup Input]">
+                  synchronousInputId="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Inputs[Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1444,7 +1384,7 @@ where [refTable].[MANGUON] = ?</property>
               </outputs>
             </component>
             <component
-              refId="Package\LoaiCuaHang_NDS_DDS\Union All"
+              refId="Package\LoaiSanPham_NDS_DDS\Union All"
               componentClassID="Microsoft.UnionAll"
               contactInfo="Union All;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Combines rows from multiple data flows without sorting. For example, add rows back to a data flow after correction of errors. If sorting is important, we recommend using the Merge transformation."
@@ -1452,212 +1392,238 @@ where [refTable].[MANGUON] = ?</property>
               version="1">
               <inputs>
                 <input
-                  refId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 1]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 1]"
                   name="Union All Input 1">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[MALOAICH]"
-                      cachedDataType="i4"
-                      cachedName="MALOAICH"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MALOAICH]">
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[NGAYTAO]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="NGAYTAO"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAICH]}</property>
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYTAO]}</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[MALOAICH_NGUON]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[NGAYCAPNHAT]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="NGAYCAPNHAT"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYCAPNHAT]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[TRANGTHAI]"
+                      cachedDataType="bool"
+                      cachedName="TRANGTHAI"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TRANGTHAI]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[MANGUON]"
+                      cachedDataType="i4"
+                      cachedName="MANGUON"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MANGUON]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[MALOAISP]"
+                      cachedDataType="i4"
+                      cachedName="MALOAISP"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MALOAISP]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAISP]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[MALOAISP_NGUON]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="10"
-                      cachedName="MALOAICH_NGUON"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MALOAICH_NGUON]">
+                      cachedName="MALOAISP_NGUON"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MALOAISP_NGUON]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAICH_NGUON]}</property>
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAISP_NGUON]}</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[TENLOAICH]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[TENLOAISP]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
-                      cachedName="TENLOAICH"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[TENLOAICH]">
+                      cachedName="TENLOAISP"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[TENLOAISP]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TENLOAICH]}</property>
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TENLOAISP]}</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[NGAYTAO]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[ngaycapnhat]"
                       cachedDataType="dbTimeStamp"
-                      cachedName="NGAYTAO"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]">
+                      cachedName="ngaycapnhat"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[ngaycapnhat]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYTAO]}</property>
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaycapnhat]}</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[NGAYCAPNHAT]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[ngaytao]"
                       cachedDataType="dbTimeStamp"
-                      cachedName="NGAYCAPNHAT"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]">
+                      cachedName="ngaytao"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[ngaytao]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYCAPNHAT]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[TRANGTHAI]"
-                      cachedDataType="bool"
-                      cachedName="TRANGTHAI"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TRANGTHAI]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[MANGUON]"
-                      cachedDataType="i4"
-                      cachedName="MANGUON"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MANGUON]}</property>
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaytao]}</property>
                       </properties>
                     </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
                 <input
-                  refId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 2]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 2]"
                   hasSideEffects="true"
                   name="Union All Input 2">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 2].Columns[MALOAICH]"
-                      cachedDataType="i4"
-                      cachedName="MALOAICH"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MALOAICH]">
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 2].Columns[NGAYTAO]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="NGAYTAO"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAICH]}</property>
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaytao]}</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 2].Columns[MALOAICH_NGUON]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 2].Columns[NGAYCAPNHAT]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="NGAYCAPNHAT"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaycapnhat]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 2].Columns[TRANGTHAI]"
+                      cachedDataType="bool"
+                      cachedName="TRANGTHAI"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TRANGTHAI]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 2].Columns[MANGUON]"
+                      cachedDataType="i4"
+                      cachedName="MANGUON"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MANGUON]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 2].Columns[MALOAISP]"
+                      cachedDataType="i4"
+                      cachedName="MALOAISP"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MALOAISP]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAISP]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 2].Columns[MALOAISP_NGUON]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="10"
-                      cachedName="MALOAICH_NGUON"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MALOAICH_NGUON]">
+                      cachedName="MALOAISP_NGUON"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MALOAISP_NGUON]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAICH_NGUON]}</property>
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAISP_NGUON]}</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 2].Columns[TENLOAICH]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 2].Columns[TENLOAISP]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
-                      cachedName="TENLOAICH"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[TENLOAICH]">
+                      cachedName="TENLOAISP"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[TENLOAISP]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TENLOAICH]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 2].Columns[NGAYTAO]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="NGAYTAO"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYTAO]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 2].Columns[NGAYCAPNHAT]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="NGAYCAPNHAT"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYCAPNHAT]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 2].Columns[TRANGTHAI]"
-                      cachedDataType="bool"
-                      cachedName="TRANGTHAI"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TRANGTHAI]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 2].Columns[MANGUON]"
-                      cachedDataType="i4"
-                      cachedName="MANGUON"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MANGUON]}</property>
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TENLOAISP]}</property>
                       </properties>
                     </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
                 <input
-                  refId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 3]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 3]"
                   dangling="true"
                   hasSideEffects="true"
                   name="Union All Input 3">
@@ -1666,48 +1632,58 @@ where [refTable].[MANGUON] = ?</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1]"
+                  refId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1]"
                   name="Union All Output 1">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAICH]"
-                      dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAICH]"
-                      name="MALOAICH" />
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYTAO]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYTAO]"
+                      name="NGAYTAO" />
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAICH_NGUON]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYCAPNHAT]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYCAPNHAT]"
+                      name="NGAYCAPNHAT" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TRANGTHAI]"
+                      dataType="bool"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TRANGTHAI]"
+                      name="TRANGTHAI" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MANGUON]"
+                      dataType="i4"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MANGUON]"
+                      name="MANGUON" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAISP]"
+                      dataType="i4"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAISP]"
+                      name="MALOAISP" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAISP_NGUON]"
                       codePage="1252"
                       dataType="str"
                       length="10"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAICH_NGUON]"
-                      name="MALOAICH_NGUON" />
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MALOAISP_NGUON]"
+                      name="MALOAISP_NGUON" />
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TENLOAICH]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TENLOAISP]"
                       codePage="1252"
                       dataType="str"
                       length="50"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TENLOAICH]"
-                      name="TENLOAICH" />
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TENLOAISP]"
+                      name="TENLOAISP" />
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYTAO]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaycapnhat]"
                       dataType="dbTimeStamp"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYTAO]"
-                      name="NGAYTAO" />
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaycapnhat]"
+                      name="ngaycapnhat" />
                     <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYCAPNHAT]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaytao]"
                       dataType="dbTimeStamp"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYCAPNHAT]"
-                      name="NGAYCAPNHAT" />
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TRANGTHAI]"
-                      dataType="bool"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TRANGTHAI]"
-                      name="TRANGTHAI" />
-                    <outputColumn
-                      refId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MANGUON]"
-                      dataType="i4"
-                      lineageId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[MANGUON]"
-                      name="MANGUON" />
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaytao]"
+                      name="ngaytao" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -1716,55 +1692,55 @@ where [refTable].[MANGUON] = ?</property>
           </components>
           <paths>
             <path
-              refId="Package\LoaiCuaHang_NDS_DDS.Paths[Derived Column Output]"
-              endId="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua.Inputs[Lookup Input]"
+              refId="Package\LoaiSanPham_NDS_DDS.Paths[Derived Column Output]"
+              endId="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Inputs[Lookup Input]"
               name="Derived Column Output"
-              startId="Package\LoaiCuaHang_NDS_DDS\Derived Column.Outputs[Derived Column Output]" />
+              startId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output]" />
             <path
-              refId="Package\LoaiCuaHang_NDS_DDS.Paths[Derived Column Output1]"
-              endId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input]"
+              refId="Package\LoaiSanPham_NDS_DDS.Paths[Derived Column Output1]"
+              endId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input]"
               name="Derived Column Output"
-              startId="Package\LoaiCuaHang_NDS_DDS\Derived Column 1.Outputs[Derived Column Output]" />
+              startId="Package\LoaiSanPham_NDS_DDS\Derived Column 1.Outputs[Derived Column Output]" />
             <path
-              refId="Package\LoaiCuaHang_NDS_DDS.Paths[Derived Column Output2]"
-              endId="Package\LoaiCuaHang_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input]"
+              refId="Package\LoaiSanPham_NDS_DDS.Paths[Derived Column Output2]"
+              endId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input]"
               name="Derived Column Output"
-              startId="Package\LoaiCuaHang_NDS_DDS\Derived Column 2.Outputs[Derived Column Output]" />
+              startId="Package\LoaiSanPham_NDS_DDS\Derived Column 2.Outputs[Derived Column Output]" />
             <path
-              refId="Package\LoaiCuaHang_NDS_DDS.Paths[Historical Attribute Inserts Output]"
-              endId="Package\LoaiCuaHang_NDS_DDS\Derived Column 1.Inputs[Derived Column Input]"
+              refId="Package\LoaiSanPham_NDS_DDS.Paths[Historical Attribute Inserts Output]"
+              endId="Package\LoaiSanPham_NDS_DDS\Derived Column 1.Inputs[Derived Column Input]"
               name="Historical Attribute Inserts Output"
-              startId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Outputs[Historical Attribute Inserts Output]" />
+              startId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Outputs[Historical Attribute Inserts Output]" />
             <path
-              refId="Package\LoaiCuaHang_NDS_DDS.Paths[Inferred Member Updates Output]"
-              endId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input]"
+              refId="Package\LoaiSanPham_NDS_DDS.Paths[Inferred Member Updates Output]"
+              endId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input]"
               name="Inferred Member Updates Output"
-              startId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Outputs[Inferred Member Updates Output]" />
+              startId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Outputs[Inferred Member Updates Output]" />
             <path
-              refId="Package\LoaiCuaHang_NDS_DDS.Paths[Lookup Match Output]"
-              endId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
+              refId="Package\LoaiSanPham_NDS_DDS.Paths[Lookup Match Output]"
+              endId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
               name="Lookup Match Output"
-              startId="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua.Outputs[Lookup Match Output]" />
+              startId="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Outputs[Lookup Match Output]" />
             <path
-              refId="Package\LoaiCuaHang_NDS_DDS.Paths[New Output]"
-              endId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 1]"
+              refId="Package\LoaiSanPham_NDS_DDS.Paths[New Output]"
+              endId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 1]"
               name="New Output"
-              startId="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension.Outputs[New Output]" />
+              startId="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension.Outputs[New Output]" />
             <path
-              refId="Package\LoaiCuaHang_NDS_DDS.Paths[OLE DB Command Output]"
-              endId="Package\LoaiCuaHang_NDS_DDS\Union All.Inputs[Union All Input 2]"
+              refId="Package\LoaiSanPham_NDS_DDS.Paths[OLE DB Command Output]"
+              endId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 2]"
               name="OLE DB Command Output"
-              startId="Package\LoaiCuaHang_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Output]" />
+              startId="Package\LoaiSanPham_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Output]" />
             <path
-              refId="Package\LoaiCuaHang_NDS_DDS.Paths[OLE DB Source Output]"
-              endId="Package\LoaiCuaHang_NDS_DDS\Derived Column.Inputs[Derived Column Input]"
+              refId="Package\LoaiSanPham_NDS_DDS.Paths[OLE DB Source Output]"
+              endId="Package\LoaiSanPham_NDS_DDS\Derived Column.Inputs[Derived Column Input]"
               name="OLE DB Source Output"
-              startId="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS.Outputs[OLE DB Source Output]" />
+              startId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\LoaiCuaHang_NDS_DDS.Paths[Union All Output 1]"
-              endId="Package\LoaiCuaHang_NDS_DDS\Derived Column 2.Inputs[Derived Column Input]"
+              refId="Package\LoaiSanPham_NDS_DDS.Paths[Union All Output 1]"
+              endId="Package\LoaiSanPham_NDS_DDS\Derived Column 2.Inputs[Derived Column Input]"
               name="Union All Output 1"
-              startId="Package\LoaiCuaHang_NDS_DDS\Union All.Outputs[Union All Output 1]" />
+              startId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -1773,7 +1749,7 @@ where [refTable].[MANGUON] = ?</property>
       DTS:refId="Package\Set CET"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:DTSID="{847E377C-42D8-4007-8C0F-8083665BE7AC}"
+      DTS:DTSID="{316116af-5f97-4a21-874f-655b1b7b5d78}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Set CET"
@@ -1782,15 +1758,15 @@ where [refTable].[MANGUON] = ?</property>
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{A88DFD8C-D630-469E-8381-07DF807F2952}"
-          SQLTask:SqlStatementSource="update data_flow set CET = getdate() where name = 'LoaiCuaHang' " xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:Connection="{1742BBFE-F24E-47B0-B147-20E95CCCA252}"
+          SQLTask:SqlStatementSource="update data_flow set CET = getdate() where name = 'LOAISANPHAM'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Set LSET"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:DTSID="{AAF9CC74-260C-4003-A027-257271EC23C4}"
+      DTS:DTSID="{05efa790-d47e-412a-a6fc-aa954ee8892e}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Set LSET"
@@ -1799,8 +1775,8 @@ where [refTable].[MANGUON] = ?</property>
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{A88DFD8C-D630-469E-8381-07DF807F2952}"
-          SQLTask:SqlStatementSource="update data_flow set LSET = CET where name = 'LoaiCuaHang' " xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:Connection="{1742BBFE-F24E-47B0-B147-20E95CCCA252}"
+          SQLTask:SqlStatementSource="UPDATE       data_flow&#xA;SET                LSET = CET&#xA;WHERE        (name = 'LOAISANPHAM')" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -1808,24 +1784,24 @@ where [refTable].[MANGUON] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
-      DTS:DTSID="{E5F9AA34-61AE-4167-9301-35FF6EB71582}"
+      DTS:DTSID="{8e0b68d7-cd98-47d3-a695-ba145114ffda}"
       DTS:From="Package\Set CET"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
-      DTS:To="Package\Get LSET" />
+      DTS:To="Package\GET LSET" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
-      DTS:DTSID="{3F0350C2-03A1-4954-B953-B7C4BE8902AB}"
-      DTS:From="Package\Get LSET"
+      DTS:DTSID="{69b25bd8-1d60-4075-96af-76e1d375e6a6}"
+      DTS:From="Package\GET LSET"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
-      DTS:To="Package\LoaiCuaHang_NDS_DDS" />
+      DTS:To="Package\LoaiSanPham_NDS_DDS" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
-      DTS:DTSID="{4C3B3FBA-1365-4C2F-9561-F510E105758D}"
-      DTS:From="Package\LoaiCuaHang_NDS_DDS"
+      DTS:DTSID="{99417867-906d-4d58-b6c2-5b3f03b2f8e8}"
+      DTS:From="Package\LoaiSanPham_NDS_DDS"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 2"
       DTS:To="Package\Set LSET" />
@@ -1843,35 +1819,47 @@ where [refTable].[MANGUON] = ?</property>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="122,42"
-          Id="Package\Get LSET"
-          TopLeft="436.5,250.5" />
+          Size="125,42"
+          Id="Package\GET LSET"
+          TopLeft="65.5,151.5" />
         <NodeLayout
-          Size="193,42"
-          Id="Package\LoaiCuaHang_NDS_DDS"
-          TopLeft="392,349" />
+          Size="194,42"
+          Id="Package\LoaiSanPham_NDS_DDS"
+          TopLeft="243,280" />
         <NodeLayout
           Size="116,42"
           Id="Package\Set CET"
-          TopLeft="439,123" />
+          TopLeft="60,60" />
         <NodeLayout
           Size="121,42"
           Id="Package\Set LSET"
-          TopLeft="434.5,463.5" />
+          TopLeft="105.5,414.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="497.25,165">
+          TopLeft="118,102">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,85.5"
+              EndConnector="10,49.5"
               Start="0,0"
-              End="0,78">
+              End="10,42">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,78" />
+                    End="0,20.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.75"
+                    Point2="0,24.75"
+                    Point3="4,24.75" />
+                  <mssgle:LineSegment
+                    End="6,24.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="6,24.75"
+                    Point2="10,24.75"
+                    Point3="10,28.75" />
+                  <mssgle:LineSegment
+                    End="10,42" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1882,30 +1870,30 @@ where [refTable].[MANGUON] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="497.5,292.5">
+          TopLeft="128,193.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-9,56.5"
+              EndConnector="212,86.5"
               Start="0,0"
-              End="-9,49">
+              End="212,79">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24.25" />
+                    End="0,39.25" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,24.25"
-                    Point2="0,28.25"
-                    Point3="-4,28.25" />
+                    Point1="0,39.25"
+                    Point2="0,43.25"
+                    Point3="4,43.25" />
                   <mssgle:LineSegment
-                    End="-5,28.25" />
+                    End="208,43.25" />
                   <mssgle:CubicBezierSegment
-                    Point1="-5,28.25"
-                    Point2="-9,28.25"
-                    Point3="-9,32.25" />
+                    Point1="208,43.25"
+                    Point2="212,43.25"
+                    Point3="212,47.25" />
                   <mssgle:LineSegment
-                    End="-9,49" />
+                    End="212,79" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1916,18 +1904,30 @@ where [refTable].[MANGUON] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="491.75,391">
+          TopLeft="340,322">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,72.5"
+              EndConnector="-174,92.5"
               Start="0,0"
-              End="0,65">
+              End="-174,85">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,65" />
+                    End="0,42.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,42.25"
+                    Point2="0,46.25"
+                    Point3="-4,46.25" />
+                  <mssgle:LineSegment
+                    End="-170,46.25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-170,46.25"
+                    Point2="-174,46.25"
+                    Point3="-174,50.25" />
+                  <mssgle:LineSegment
+                    End="-174,85" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1940,53 +1940,101 @@ where [refTable].[MANGUON] = ?</property>
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\LoaiCuaHang_NDS_DDS">
+    design-time-name="Package\LoaiSanPham_NDS_DDS">
     <LayoutInfo>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="163,42"
-          Id="Package\LoaiCuaHang_NDS_DDS\Insert Destination"
-          TopLeft="443,842.5" />
-        <NodeLayout
-          Size="163,42"
-          Id="Package\LoaiCuaHang_NDS_DDS\Derived Column 1"
-          TopLeft="300,434.5" />
-        <NodeLayout
-          Size="166,42"
-          Id="Package\LoaiCuaHang_NDS_DDS\OLE DB Command"
-          TopLeft="297.5,536.5" />
-        <NodeLayout
-          Size="167,42"
-          Id="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS"
-          TopLeft="441,26.5" />
-        <NodeLayout
-          Size="175,42"
-          Id="Package\LoaiCuaHang_NDS_DDS\OLE DB Command 1"
-          TopLeft="586,434.5" />
-        <NodeLayout
-          Size="209,42"
-          Id="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension"
-          TopLeft="420,332.5" />
-        <NodeLayout
-          Size="121,42"
-          Id="Package\LoaiCuaHang_NDS_DDS\Union All"
-          TopLeft="464,638.5" />
-        <NodeLayout
-          Size="163,42"
-          Id="Package\LoaiCuaHang_NDS_DDS\Derived Column 2"
-          TopLeft="443,740.5" />
+          Size="206,42"
+          Id="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS"
+          TopLeft="129.5,5.5" />
         <NodeLayout
           Size="154,42"
-          Id="Package\LoaiCuaHang_NDS_DDS\Derived Column"
-          TopLeft="447.5,128.5" />
+          Id="Package\LoaiSanPham_NDS_DDS\Derived Column"
+          TopLeft="155.5,107.5" />
         <NodeLayout
-          Size="262,42"
-          Id="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua"
-          TopLeft="393.5,230.5" />
+          Size="251,42"
+          Id="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?"
+          TopLeft="107,209.5" />
         <EdgeLayout
-          Id="Package\LoaiCuaHang_NDS_DDS.Paths[Historical Attribute Inserts Output]"
-          TopLeft="474.25,374.5">
+          Id="Package\LoaiSanPham_NDS_DDS.Paths[OLE DB Source Output]"
+          TopLeft="232.5,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\LoaiSanPham_NDS_DDS.Paths[Derived Column Output]"
+          TopLeft="232.5,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="209,42"
+          Id="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension"
+          TopLeft="128,311.5" />
+        <EdgeLayout
+          Id="Package\LoaiSanPham_NDS_DDS.Paths[Lookup Match Output]"
+          TopLeft="232.5,251.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="163,42"
+          Id="Package\LoaiSanPham_NDS_DDS\Derived Column 1"
+          TopLeft="8.00000000000006,413.5" />
+        <EdgeLayout
+          Id="Package\LoaiSanPham_NDS_DDS.Paths[Historical Attribute Inserts Output]"
+          TopLeft="182.25,353.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2020,9 +2068,13 @@ where [refTable].[MANGUON] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="166,42"
+          Id="Package\LoaiSanPham_NDS_DDS\OLE DB Command"
+          TopLeft="5.50000000000006,515.5" />
         <EdgeLayout
-          Id="Package\LoaiCuaHang_NDS_DDS.Paths[Derived Column Output2]"
-          TopLeft="524.5,782.5">
+          Id="Package\LoaiSanPham_NDS_DDS.Paths[Derived Column Output1]"
+          TopLeft="89.0000000000001,455.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2042,131 +2094,13 @@ where [refTable].[MANGUON] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="121,42"
+          Id="Package\LoaiSanPham_NDS_DDS\Union All"
+          TopLeft="172,617.5" />
         <EdgeLayout
-          Id="Package\LoaiCuaHang_NDS_DDS.Paths[Derived Column Output1]"
-          TopLeft="381,476.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LoaiCuaHang_NDS_DDS.Paths[Derived Column Output]"
-          TopLeft="524.5,170.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LoaiCuaHang_NDS_DDS.Paths[Union All Output 1]"
-          TopLeft="524.5,680.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LoaiCuaHang_NDS_DDS.Paths[OLE DB Source Output]"
-          TopLeft="524.5,68.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LoaiCuaHang_NDS_DDS.Paths[OLE DB Command Output]"
-          TopLeft="380.5,578.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="125.166666666667,60"
-              Start="0,0"
-              End="125.166666666667,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.5301794453508" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.5301794453508"
-                    Point2="0,35.5301794453508"
-                    Point3="4,35.5301794453508" />
-                  <mssgle:LineSegment
-                    End="121.166666666667,35.5301794453508" />
-                  <mssgle:CubicBezierSegment
-                    Point1="121.166666666667,35.5301794453508"
-                    Point2="125.166666666667,35.5301794453508"
-                    Point3="125.166666666667,39.5301794453508" />
-                  <mssgle:LineSegment
-                    End="125.166666666667,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LoaiCuaHang_NDS_DDS.Paths[New Output]"
-          TopLeft="524.5,374.5">
+          Id="Package\LoaiSanPham_NDS_DDS.Paths[New Output]"
+          TopLeft="232.5,353.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2201,8 +2135,46 @@ where [refTable].[MANGUON] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\LoaiCuaHang_NDS_DDS.Paths[Lookup Match Output]"
-          TopLeft="524.5,272.5">
+          Id="Package\LoaiSanPham_NDS_DDS.Paths[OLE DB Command Output]"
+          TopLeft="88.5000000000001,557.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="125.166666666667,60"
+              Start="0,0"
+              End="125.166666666667,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.5301794453507" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.5301794453507"
+                    Point2="0,35.5301794453507"
+                    Point3="4,35.5301794453507" />
+                  <mssgle:LineSegment
+                    End="121.166666666667,35.5301794453507" />
+                  <mssgle:CubicBezierSegment
+                    Point1="121.166666666667,35.5301794453507"
+                    Point2="125.166666666667,35.5301794453507"
+                    Point3="125.166666666667,39.5301794453507" />
+                  <mssgle:LineSegment
+                    End="125.166666666667,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="163,42"
+          Id="Package\LoaiSanPham_NDS_DDS\Derived Column 2"
+          TopLeft="151,719.5" />
+        <EdgeLayout
+          Id="Package\LoaiSanPham_NDS_DDS.Paths[Union All Output 1]"
+          TopLeft="232.5,659.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2219,14 +2191,42 @@ where [refTable].[MANGUON] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="163,42"
+          Id="Package\LoaiSanPham_NDS_DDS\Insert Destination"
+          TopLeft="151,821.5" />
         <EdgeLayout
-          Id="Package\LoaiCuaHang_NDS_DDS.Paths[Inferred Member Updates Output]"
-          TopLeft="574.75,374.5">
+          Id="Package\LoaiSanPham_NDS_DDS.Paths[Derived Column Output2]"
+          TopLeft="232.5,761.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="175,42"
+          Id="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1"
+          TopLeft="294,413.5" />
+        <EdgeLayout
+          Id="Package\LoaiSanPham_NDS_DDS.Paths[Inferred Member Updates Output]"
+          TopLeft="282.75,353.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2264,62 +2264,85 @@ where [refTable].[MANGUON] = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\LoaiCuaHang_NDS_DDS\LoaiCuaHang_NDS">
+    design-time-name="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS">
     <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?">
+    <Properties>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q2:string">[dbo].[NGUONDULIEU]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q3:string">0</Value>
+      </Property>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\LoaiCuaHang_NDS_DDS\Slowly Changing Dimension">
+    design-time-name="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension">
     <Properties>
       <Property>
         <Name>SCDMetadata</Name>
         <Value
           type="q2:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SCDWizardMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionID&gt;{0B453057-1F71-49D9-9064-C98D10267743}&lt;/ConnectionID&gt;
-  &lt;TableName&gt;[dbo].[LOAICUAHANG]&lt;/TableName&gt;
+  &lt;ConnectionID&gt;{0D87EAB6-CF72-4C7E-B9B4-8C19A075B8B3}&lt;/ConnectionID&gt;
+  &lt;TableName&gt;[dbo].[LOAISANPHAM]&lt;/TableName&gt;
   &lt;InputToColumnsCollection&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MALOAICH]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;MALOAICH&lt;/ColumnName&gt;
+      &lt;IdentificationString&gt;Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MALOAISP]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;MALOAISP&lt;/ColumnName&gt;
       &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MALOAICH_NGUON]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;MALOAICH_NGUON&lt;/ColumnName&gt;
+      &lt;IdentificationString&gt;Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MALOAISP_NGUON]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;MALOAISP_NGUON&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;MANGUON&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Derived Column.Outputs[Derived Column Output].Columns[ngaycapnhat]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;NGAYCAPNHAT&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Derived Column.Outputs[Derived Column Output].Columns[ngaytao]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;NGAYTAO&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[TENLOAICH]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;TENLOAICH&lt;/ColumnName&gt;
+      &lt;IdentificationString&gt;Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[TENLOAISP]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;TENLOAISP&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;HistoricalAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;LoaiCuaHang_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;TRANGTHAI&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
@@ -2345,29 +2368,6 @@ where [refTable].[MANGUON] = ?</property>
   &lt;DateVariable /&gt;
   &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
 &lt;/SCDWizardMetadata&gt;</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\LoaiCuaHang_NDS_DDS\Tim xem nguon du lieu da ton tai chua">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[NGUONDULIEU]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

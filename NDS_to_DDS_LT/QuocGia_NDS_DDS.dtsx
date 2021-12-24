@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{EE6C011A-75AE-4884-A9D4-CAA83689DAB0}">
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{D98B7D22-5AD3-4082-965A-AD1BE40653CF}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -90,7 +90,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{F66E8A90-F571-48A9-9734-82389CC07C0B}"
-          SQLTask:SqlStatementSource="select LSET, CET from data_flow where name = 'QUOCGIA'"
+          SQLTask:SqlStatementSource="SELECT        LSET, CET&#xA;FROM            data_flow&#xA;WHERE        (name = 'QUOCGIA')"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="LSET"
@@ -732,7 +732,7 @@
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether historical attribute updates are directed to the transformation output for changing attribute updates."
-                  name="UpdateChangingAttributeHistory">false</property>
+                  name="UpdateChangingAttributeHistory">true</property>
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether the transformation fails when columns with fixed attributes contain changes."
@@ -773,19 +773,6 @@
                   name="Slowly Changing Dimension Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[MANUOC]"
-                      cachedDataType="i4"
-                      cachedName="MANUOC"
-                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[MANUOC]"
-                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANUOC]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          name="ColumnType"
-                          typeConverter="ColumnType">1</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
                       refId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[TENNUOC]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -798,6 +785,19 @@
                           dataType="System.Int32"
                           name="ColumnType"
                           typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[MANUOC]"
+                      cachedDataType="i4"
+                      cachedName="MANUOC"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[MANUOC]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANUOC]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">1</property>
                       </properties>
                     </inputColumn>
                   </inputColumns>
@@ -892,11 +892,14 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from QuocGia where (NgayTao &gt; ? and NgayTao &lt;= ?) or (NgayCapNhat &gt; ?  and NgayCapNhat &lt;= ?)</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT        MANUOC, MANGUON, MANUOC_NGUON, TENNUOC, NGAYTAO, NGAYCAPNHAT, TRANGTHAI
+FROM            QUOCGIA
+WHERE        (NGAYTAO &gt; ?) AND (NGAYTAO &lt;= ?) OR
+                         (NGAYCAPNHAT &gt; ?) AND (NGAYCAPNHAT &lt;= ?)</property>
                 <property
                   dataType="System.String"
                   description="The variable that contains the SQL command to be executed."
-                  name="SqlCommandVariable"></property>
+                  name="SqlCommandVariable">User::LSET</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -1285,7 +1288,7 @@ where [refTable].[MANGUON] = ?</property>
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{F66E8A90-F571-48A9-9734-82389CC07C0B}"
-          SQLTask:SqlStatementSource="update data_flow set CET = getdate() where name = 'QUOCGIA'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="UPDATE       data_flow&#xA;SET                CET = GETDATE()&#xA;WHERE        (name = 'QUOCGIA')" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -1318,7 +1321,7 @@ where [refTable].[MANGUON] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
-      DTS:DTSID="{9b6439a8-413c-4454-8031-ee02e5bcedad}"
+      DTS:DTSID="{9FFC9EFD-73C0-49D0-8A26-9E49DA2832F7}"
       DTS:From="Package\GET LSET"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
@@ -1347,79 +1350,45 @@ where [refTable].[MANGUON] = ?</property>
         <NodeLayout
           Size="125,42"
           Id="Package\GET LSET"
-          TopLeft="65.5,151.5" />
+          TopLeft="201.5,189.5" />
         <NodeLayout
           Size="171,42"
           Id="Package\QuocGia_NDS_DDS"
-          TopLeft="266,289" />
+          TopLeft="374,285" />
         <NodeLayout
           Size="116,42"
           Id="Package\Set CET"
-          TopLeft="60,60" />
+          TopLeft="76,94" />
         <NodeLayout
           Size="121,42"
           Id="Package\Set LSET"
-          TopLeft="105.5,414.5" />
+          TopLeft="270.5,407.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="118,102">
+          TopLeft="134,136">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="10,49.5"
+              EndConnector="130,53.5"
               Start="0,0"
-              End="10,42">
+              End="130,46">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20.75" />
+                    End="0,22.75" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,20.75"
-                    Point2="0,24.75"
-                    Point3="4,24.75" />
+                    Point1="0,22.75"
+                    Point2="0,26.75"
+                    Point3="4,26.75" />
                   <mssgle:LineSegment
-                    End="6,24.75" />
+                    End="126,26.75" />
                   <mssgle:CubicBezierSegment
-                    Point1="6,24.75"
-                    Point2="10,24.75"
-                    Point3="10,28.75" />
+                    Point1="126,26.75"
+                    Point2="130,26.75"
+                    Point3="130,30.75" />
                   <mssgle:LineSegment
-                    End="10,42" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="128,193.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="223.5,95.5"
-              Start="0,0"
-              End="223.5,88">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,43.75" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,43.75"
-                    Point2="0,47.75"
-                    Point3="4,47.75" />
-                  <mssgle:LineSegment
-                    End="219.5,47.75" />
-                  <mssgle:CubicBezierSegment
-                    Point1="219.5,47.75"
-                    Point2="223.5,47.75"
-                    Point3="223.5,51.75" />
-                  <mssgle:LineSegment
-                    End="223.5,88" />
+                    End="130,46" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1430,30 +1399,64 @@ where [refTable].[MANGUON] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="351.5,331">
+          TopLeft="459.5,327">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-185.5,83.5"
+              EndConnector="-128.5,80.5"
               Start="0,0"
-              End="-185.5,76">
+              End="-128.5,73">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,37.75" />
+                    End="0,36.25" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,37.75"
-                    Point2="0,41.75"
-                    Point3="-4,41.75" />
+                    Point1="0,36.25"
+                    Point2="0,40.25"
+                    Point3="-4,40.25" />
                   <mssgle:LineSegment
-                    End="-181.5,41.75" />
+                    End="-124.5,40.25" />
                   <mssgle:CubicBezierSegment
-                    Point1="-181.5,41.75"
-                    Point2="-185.5,41.75"
-                    Point3="-185.5,45.75" />
+                    Point1="-124.5,40.25"
+                    Point2="-128.5,40.25"
+                    Point3="-128.5,44.25" />
                   <mssgle:LineSegment
-                    End="-185.5,76" />
+                    End="-128.5,73" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="264,231.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="195.5,53.5"
+              Start="0,0"
+              End="195.5,46">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.75"
+                    Point2="0,26.75"
+                    Point3="4,26.75" />
+                  <mssgle:LineSegment
+                    End="191.5,26.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="191.5,26.75"
+                    Point2="195.5,26.75"
+                    Point3="195.5,30.75" />
+                  <mssgle:LineSegment
+                    End="195.5,46" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1473,57 +1476,33 @@ where [refTable].[MANGUON] = ?</property>
         <NodeLayout
           Size="251,42"
           Id="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?"
-          TopLeft="655,209.5" />
-        <NodeLayout
-          Size="163,42"
-          Id="Package\QuocGia_NDS_DDS\Insert Destination"
-          TopLeft="474,413.5" />
+          TopLeft="186.5,209.5" />
         <NodeLayout
           Size="182,42"
           Id="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS"
-          TopLeft="705.5,5.5" />
-        <NodeLayout
-          Size="166,42"
-          Id="Package\QuocGia_NDS_DDS\OLE DB Command"
-          TopLeft="697.5,413.5" />
-        <NodeLayout
-          Size="175,42"
-          Id="Package\QuocGia_NDS_DDS\OLE DB Command 1"
-          TopLeft="924,413.5" />
+          TopLeft="221,5.49999999999989" />
         <NodeLayout
           Size="209,42"
           Id="Package\QuocGia_NDS_DDS\Slowly Changing Dimension"
-          TopLeft="676,311.5" />
+          TopLeft="207.5,311.5" />
         <NodeLayout
           Size="154,42"
           Id="Package\QuocGia_NDS_DDS\Derived Column"
-          TopLeft="703.5,107.5" />
+          TopLeft="235,107.5" />
         <EdgeLayout
           Id="Package\QuocGia_NDS_DDS.Paths[OLE DB Source Output]"
-          TopLeft="796.5,47.5">
+          TopLeft="312,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-16,60"
+              EndConnector="0,60"
               Start="0,0"
-              End="-16,52.5">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-12,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-12,30"
-                    Point2="-16,30"
-                    Point3="-16,34" />
-                  <mssgle:LineSegment
-                    End="-16,52.5" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1533,8 +1512,58 @@ where [refTable].[MANGUON] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\QuocGia_NDS_DDS.Paths[Lookup Match Output]"
+          TopLeft="312,251.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\QuocGia_NDS_DDS.Paths[Derived Column Output]"
+          TopLeft="312,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="163,42"
+          Id="Package\QuocGia_NDS_DDS\Insert Destination"
+          TopLeft="5.50000000000006,413.5" />
+        <EdgeLayout
           Id="Package\QuocGia_NDS_DDS.Paths[New Output]"
-          TopLeft="730.25,353.5">
+          TopLeft="261.75,353.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1568,33 +1597,13 @@ where [refTable].[MANGUON] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\QuocGia_NDS_DDS.Paths[Lookup Match Output]"
-          TopLeft="780.5,251.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="166,42"
+          Id="Package\QuocGia_NDS_DDS\OLE DB Command"
+          TopLeft="229,413.5" />
         <EdgeLayout
           Id="Package\QuocGia_NDS_DDS.Paths[Inferred Member Updates Output]"
-          TopLeft="780.5,353.5">
+          TopLeft="312,353.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1616,37 +1625,19 @@ where [refTable].[MANGUON] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\QuocGia_NDS_DDS.Paths[Derived Column Output]"
-          TopLeft="780.5,149.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="175,42"
+          Id="Package\QuocGia_NDS_DDS\OLE DB Command 1"
+          TopLeft="455.5,413.5" />
         <EdgeLayout
           Id="Package\QuocGia_NDS_DDS.Paths[Changing Attribute Updates Output]"
-          TopLeft="830.75,353.5">
+          TopLeft="362.25,353.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="180.75,59.9999999999999"
+              EndConnector="180.75,60"
               Start="0,0"
-              End="180.75,52.4999999999999">
+              End="180.75,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -1663,7 +1654,7 @@ where [refTable].[MANGUON] = ?</property>
                     Point2="180.75,20.503937007874"
                     Point3="180.75,24.503937007874" />
                   <mssgle:LineSegment
-                    End="180.75,52.4999999999999" />
+                    End="180.75,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1683,7 +1674,7 @@ where [refTable].[MANGUON] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:string">false</Value>
+          type="q2:boolean">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -1693,7 +1684,7 @@ where [refTable].[MANGUON] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:string">0</Value>
+          type="q4:int">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1720,19 +1711,19 @@ where [refTable].[MANGUON] = ?</property>
   &lt;TableName&gt;[dbo].[QUOCGIA]&lt;/TableName&gt;
   &lt;InputToColumnsCollection&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[MANGUON]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;MANGUON&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[MANUOC]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANUOC]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;MANUOC&lt;/ColumnName&gt;
       &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[MANUOC_NGUON]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANUOC_NGUON]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;MANUOC_NGUON&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
@@ -1750,13 +1741,13 @@ where [refTable].[MANGUON] = ?</property>
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[TENNUOC]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[TENNUOC]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;TENNUOC&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[TRANGTHAI]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;TRANGTHAI&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
@@ -1768,7 +1759,7 @@ where [refTable].[MANGUON] = ?</property>
     &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command 1&lt;/anyType&gt;
   &lt;/GeneratedComponentsIdentificationStrings&gt;
   &lt;FailFixedAttribute&gt;false&lt;/FailFixedAttribute&gt;
-  &lt;FailChangeAttribute&gt;false&lt;/FailChangeAttribute&gt;
+  &lt;FailChangeAttribute&gt;true&lt;/FailChangeAttribute&gt;
   &lt;UseStartEndDate&gt;false&lt;/UseStartEndDate&gt;
   &lt;CurrentIndicatorColumn /&gt;
   &lt;InferredIndicatorColumn /&gt;

@@ -1,37 +1,25 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
-  DTS:CreationDate="12/23/2021 4:24:18 PM"
+  DTS:CreationDate="12/23/2021 11:12:37 PM"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-CEE9UFA"
   DTS:CreatorName="DESKTOP-CEE9UFA\Chi Duyy"
-  DTS:DTSID="{A862CBCB-7197-426C-9CD0-D886C13BC763}"
+  DTS:DTSID="{E5A3338E-A180-49FD-992B-CE397EBC14B8}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.170"
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
   DTS:VersionBuild="16"
-  DTS:VersionGUID="{E7A0A784-CDA4-40E6-A7D5-340E16904108}">
+  DTS:VersionGUID="{D98B7D22-5AD3-4082-965A-AD1BE40653CF}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{A556BA13-2E27-4FA6-A64E-3FCA7FE2202A}"
-      DTS:ObjectName="DESKTOP-CEE9UFA\CDUYY">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-CEE9UFA\CDUYY;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{35ED2743-CF12-4EB2-84BD-40A6282FD76D}"
+      DTS:DTSID="{60DFB2E3-6F4D-47C3-94EA-5B2F685F729E}"
       DTS:ObjectName="DESKTOP-CEE9UFA\CDUYY.DDS_LT">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -43,7 +31,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.MetaData]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{C8F9BB7F-2BC8-42B1-AF18-3213FE06E17F}"
+      DTS:DTSID="{F66E8A90-F571-48A9-9734-82389CC07C0B}"
       DTS:ObjectName="DESKTOP-CEE9UFA\CDUYY.MetaData">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -53,34 +41,10 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.NDS]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{0533C866-57A5-463D-8762-E3D644A5FBFD}"
-      DTS:ObjectName="DESKTOP-CEE9UFA\CDUYY.NDS">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-CEE9UFA\CDUYY;Initial Catalog=NDS;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.NDS_LT]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{50673504-677D-4079-86BB-28DC294E6A20}"
+      DTS:DTSID="{AB79334B-6D1E-4329-8D86-66C84B68BDFF}"
       DTS:ObjectName="DESKTOP-CEE9UFA\CDUYY.NDS_LT">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-CEE9UFA\CDUYY;Initial Catalog=NDS_LT;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.NDS_LT 1]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{48112805-AE9C-40AF-BAD4-B26FB198386F}"
-      DTS:ObjectName="DESKTOP-CEE9UFA\CDUYY.NDS_LT 1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
@@ -92,7 +56,7 @@
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{CD8183F3-C48B-4CFE-AB6F-1C439A54C67C}"
+      DTS:DTSID="{0A29BC8A-D3F4-4B89-A380-5A4E89CDC4AD}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="CET">
@@ -102,7 +66,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{532F9A63-2300-4BB9-9570-AF664132B29E}"
+      DTS:DTSID="{3C2F9A95-CCC8-44C5-8680-49F8E5C95F33}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="LSET">
@@ -116,7 +80,7 @@
       DTS:refId="Package\GET LSET"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:DTSID="{AA6A91F1-F8ED-4E1A-837B-19829AB48F90}"
+      DTS:DTSID="{f61ae748-e2d8-4ed4-8871-ffaaa23ce8a8}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="GET LSET"
@@ -125,8 +89,8 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{C8F9BB7F-2BC8-42B1-AF18-3213FE06E17F}"
-          SQLTask:SqlStatementSource="select LSET, CET from data_flow where name = 'NguonDuLieu'"
+          SQLTask:Connection="{F66E8A90-F571-48A9-9734-82389CC07C0B}"
+          SQLTask:SqlStatementSource="SELECT        LSET, CET&#xA;FROM            data_flow&#xA;WHERE        (name = 'QUOCGIA')"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="LSET"
@@ -138,13 +102,13 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\NguonDuLieu_NDS_DDS"
+      DTS:refId="Package\QuocGia_NDS_DDS"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{7f2d686b-2b4a-4b2a-8e11-b9ba66e961a3}"
+      DTS:DTSID="{30c2c466-73ce-473e-8b50-493dfa22b581}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="NguonDuLieu_NDS_DDS"
+      DTS:ObjectName="QuocGia_NDS_DDS"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -152,7 +116,7 @@
           version="1">
           <components>
             <component
-              refId="Package\NguonDuLieu_NDS_DDS\Derived Column"
+              refId="Package\QuocGia_NDS_DDS\Derived Column"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
               description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
@@ -160,7 +124,7 @@
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\NguonDuLieu_NDS_DDS\Derived Column.Inputs[Derived Column Input]"
+                  refId="Package\QuocGia_NDS_DDS\Derived Column.Inputs[Derived Column Input]"
                   description="Input to the Derived Column Transformation"
                   name="Derived Column Input">
                   <externalMetadataColumns />
@@ -168,18 +132,18 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\NguonDuLieu_NDS_DDS\Derived Column.Outputs[Derived Column Output]"
+                  refId="Package\QuocGia_NDS_DDS\Derived Column.Outputs[Derived Column Output]"
                   description="Default Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   name="Derived Column Output"
-                  synchronousInputId="Package\NguonDuLieu_NDS_DDS\Derived Column.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\QuocGia_NDS_DDS\Derived Column.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[NGAYTAO]"
+                      refId="Package\QuocGia_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[NGAYTAO]"
                       dataType="dbTimeStamp"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[NGAYTAO]"
+                      lineageId="Package\QuocGia_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[NGAYTAO]"
                       name="NGAYTAO"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -197,11 +161,11 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[NGAYCAPNHAT]"
+                      refId="Package\QuocGia_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[NGAYCAPNHAT]"
                       dataType="dbTimeStamp"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[NGAYCAPNHAT]"
+                      lineageId="Package\QuocGia_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[NGAYCAPNHAT]"
                       name="NGAYCAPNHAT"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -222,23 +186,23 @@
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\NguonDuLieu_NDS_DDS\Derived Column.Outputs[Derived Column Error Output]"
+                  refId="Package\QuocGia_NDS_DDS\Derived Column.Outputs[Derived Column Error Output]"
                   description="Error Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Derived Column Error Output"
-                  synchronousInputId="Package\NguonDuLieu_NDS_DDS\Derived Column.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\QuocGia_NDS_DDS\Derived Column.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      refId="Package\QuocGia_NDS_DDS\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      lineageId="Package\QuocGia_NDS_DDS\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      refId="Package\QuocGia_NDS_DDS\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\QuocGia_NDS_DDS\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -247,7 +211,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\NguonDuLieu_NDS_DDS\Insert Destination"
+              refId="Package\QuocGia_NDS_DDS\Insert Destination"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
@@ -262,7 +226,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[NGUONDULIEU]</property>
+                  name="OpenRowset">[dbo].[QUOCGIA]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -304,7 +268,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Connections[OleDbConnection]"
+                  refId="Package\QuocGia_NDS_DDS\Insert Destination.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   description="The OLE DB runtime connection used to access the database."
@@ -312,90 +276,114 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input]"
+                  refId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[MANGUON]"
+                      refId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[MANUOC]"
+                      cachedDataType="i4"
+                      cachedName="MANUOC"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MANUOC]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANUOC]" />
+                    <inputColumn
+                      refId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[MANGUON]"
                       cachedDataType="i4"
                       cachedName="MANGUON"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MANGUON]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]" />
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MANGUON]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]" />
                     <inputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[TENNGUON]"
+                      refId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[MANUOC_NGUON]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="30"
-                      cachedName="TENNGUON"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[TENNGUON]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TENNGUON]" />
+                      cachedLength="10"
+                      cachedName="MANUOC_NGUON"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MANUOC_NGUON]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANUOC_NGUON]" />
                     <inputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[TRANGTHAI]"
-                      cachedDataType="bool"
-                      cachedName="TRANGTHAI"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[TRANGTHAI]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]" />
+                      refId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[TENNUOC]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="TENNUOC"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[TENNUOC]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[TENNUOC]" />
                     <inputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[NGAYTAO]"
+                      refId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[NGAYTAO]"
                       cachedDataType="dbTimeStamp"
                       cachedName="NGAYTAO"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYTAO]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[NGAYTAO]" />
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYTAO]"
+                      lineageId="Package\QuocGia_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[NGAYTAO]" />
                     <inputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[NGAYCAPNHAT]"
+                      refId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[NGAYCAPNHAT]"
                       cachedDataType="dbTimeStamp"
                       cachedName="NGAYCAPNHAT"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYCAPNHAT]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[NGAYCAPNHAT]" />
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYCAPNHAT]"
+                      lineageId="Package\QuocGia_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[NGAYCAPNHAT]" />
+                    <inputColumn
+                      refId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[TRANGTHAI]"
+                      cachedDataType="bool"
+                      cachedName="TRANGTHAI"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[TRANGTHAI]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MANGUON]"
+                      refId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MANUOC]"
+                      dataType="i4"
+                      name="MANUOC" />
+                    <externalMetadataColumn
+                      refId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MANGUON]"
                       dataType="i4"
                       name="MANGUON" />
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[TENNGUON]"
+                      refId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[MANUOC_NGUON]"
                       codePage="1252"
                       dataType="str"
-                      length="30"
-                      name="TENNGUON" />
+                      length="10"
+                      name="MANUOC_NGUON" />
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[TRANGTHAI]"
-                      dataType="bool"
-                      name="TRANGTHAI" />
+                      refId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[TENNUOC]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="TENNUOC" />
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYTAO]"
+                      refId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYTAO]"
                       dataType="dbTimeStamp"
                       name="NGAYTAO" />
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYCAPNHAT]"
+                      refId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYCAPNHAT]"
                       dataType="dbTimeStamp"
                       name="NGAYCAPNHAT" />
+                    <externalMetadataColumn
+                      refId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[TRANGTHAI]"
+                      dataType="bool"
+                      name="TRANGTHAI" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\QuocGia_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\QuocGia_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\QuocGia_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\QuocGia_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\QuocGia_NDS_DDS\Insert Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -404,7 +392,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command"
+              refId="Package\QuocGia_NDS_DDS\OLE DB Command"
               componentClassID="Microsoft.OLEDBCommand"
               contactInfo="OLE DB Command;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
               description="Runs an SQL statement for each row in a data flow. For example, call a 'new employee setup' stored procedure for each row in the 'new employees' table. Note: running an SQL statement for each row of a large data flow may take a long time."
@@ -421,7 +409,7 @@
                   description="The SQL command to be executed."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[NGUONDULIEU] SET [NGAYCAPNHAT] = ?,[NGAYTAO] = ?,[TENNGUON] = ?,[TRANGTHAI] = ? WHERE [MANGUON] = ?</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[QUOCGIA] SET [MANGUON] = ?,[MANUOC_NGUON] = ?,[NGAYCAPNHAT] = ?,[NGAYTAO] = ?,[TENNUOC] = ?,[TRANGTHAI] = ? WHERE [MANUOC] = ?</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -429,7 +417,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Connections[OleDbConnection]"
+                  refId="Package\QuocGia_NDS_DDS\OLE DB Command.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   description="The OLE DB runtime connection used to access the database."
@@ -437,61 +425,77 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input]"
+                  refId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input]"
                   errorOrTruncationOperation="Command Execution"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Command Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].Columns[MANGUON]"
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].Columns[MANGUON]"
                       cachedDataType="i4"
                       cachedName="MANGUON"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]" />
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]" />
                     <inputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].Columns[NGAYCAPNHAT]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="NGAYCAPNHAT"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[NGAYCAPNHAT]" />
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].Columns[MANUOC]"
+                      cachedDataType="i4"
+                      cachedName="MANUOC"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANUOC]" />
                     <inputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].Columns[NGAYTAO]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="NGAYTAO"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[NGAYTAO]" />
-                    <inputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].Columns[TENNGUON]"
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].Columns[MANUOC_NGUON]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="30"
-                      cachedName="TENNGUON"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TENNGUON]" />
+                      cachedLength="10"
+                      cachedName="MANUOC_NGUON"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANUOC_NGUON]" />
                     <inputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].Columns[TRANGTHAI]"
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].Columns[NGAYCAPNHAT]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="NGAYCAPNHAT"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
+                      lineageId="Package\QuocGia_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[NGAYCAPNHAT]" />
+                    <inputColumn
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].Columns[NGAYTAO]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="NGAYTAO"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
+                      lineageId="Package\QuocGia_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[NGAYTAO]" />
+                    <inputColumn
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].Columns[TENNUOC]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="TENNUOC"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[TENNUOC]" />
+                    <inputColumn
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].Columns[TRANGTHAI]"
                       cachedDataType="bool"
                       cachedName="TRANGTHAI"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]" />
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
-                      dataType="dbTimeStamp"
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      dataType="i4"
                       name="Param_0">
                       <properties>
                         <property
                           dataType="System.Int32"
                           description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
-                          name="DBParamInfoFlags">65</property>
+                          name="DBParamInfoFlags">81</property>
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
-                      dataType="dbTimeStamp"
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
                       name="Param_1">
                       <properties>
                         <property
@@ -501,10 +505,8 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
-                      codePage="1252"
-                      dataType="str"
-                      length="30"
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
+                      dataType="dbTimeStamp"
                       name="Param_2">
                       <properties>
                         <property
@@ -514,8 +516,8 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
-                      dataType="bool"
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
+                      dataType="dbTimeStamp"
                       name="Param_3">
                       <properties>
                         <property
@@ -525,9 +527,33 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
-                      dataType="i4"
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_4]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
                       name="Param_4">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_5]"
+                      dataType="bool"
+                      name="Param_5">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Parameter information.  Matches OLE DB's DBPARAMFLAGSENUM values."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input].ExternalColumns[Param_6]"
+                      dataType="i4"
+                      name="Param_6">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -540,29 +566,29 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Output]"
+                  refId="Package\QuocGia_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Output]"
                   exclusionGroup="1"
                   name="OLE DB Command Output"
-                  synchronousInputId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input]">
+                  synchronousInputId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output]"
+                  refId="Package\QuocGia_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Command Error Output"
-                  synchronousInputId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input]">
+                  synchronousInputId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      lineageId="Package\QuocGia_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\QuocGia_NDS_DDS\OLE DB Command.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -571,7 +597,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1"
+              refId="Package\QuocGia_NDS_DDS\OLE DB Command 1"
               componentClassID="Microsoft.OLEDBCommand"
               contactInfo="OLE DB Command;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
               description="Runs an SQL statement for each row in a data flow. For example, call a 'new employee setup' stored procedure for each row in the 'new employees' table. Note: running an SQL statement for each row of a large data flow may take a long time."
@@ -588,7 +614,7 @@
                   description="The SQL command to be executed."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[NGUONDULIEU] SET [TENNGUON] = ? WHERE [MANGUON] = ?</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[QUOCGIA] SET [TENNUOC] = ? WHERE [MANUOC] = ?</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -596,7 +622,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1.Connections[OleDbConnection]"
+                  refId="Package\QuocGia_NDS_DDS\OLE DB Command 1.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   description="The OLE DB runtime connection used to access the database."
@@ -604,34 +630,34 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input]"
+                  refId="Package\QuocGia_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input]"
                   errorOrTruncationOperation="Command Execution"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Command Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[MANGUON]"
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[MANUOC]"
                       cachedDataType="i4"
-                      cachedName="MANGUON"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]" />
+                      cachedName="MANUOC"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANUOC]" />
                     <inputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[TENNGUON]"
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[TENNUOC]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="30"
-                      cachedName="TENNGUON"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TENNGUON]" />
+                      cachedLength="50"
+                      cachedName="TENNUOC"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[TENNUOC]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_0]"
                       codePage="1252"
                       dataType="str"
-                      length="30"
+                      length="50"
                       name="Param_0">
                       <properties>
                         <property
@@ -641,7 +667,7 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
                       dataType="i4"
                       name="Param_1">
                       <properties>
@@ -656,29 +682,29 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Output]"
+                  refId="Package\QuocGia_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Output]"
                   exclusionGroup="1"
                   name="OLE DB Command Output"
-                  synchronousInputId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input]">
+                  synchronousInputId="Package\QuocGia_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output]"
+                  refId="Package\QuocGia_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Command Error Output"
-                  synchronousInputId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input]">
+                  synchronousInputId="Package\QuocGia_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
+                      lineageId="Package\QuocGia_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      refId="Package\QuocGia_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\QuocGia_NDS_DDS\OLE DB Command 1.Outputs[OLE DB Command Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -687,7 +713,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension"
+              refId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension"
               componentClassID="Microsoft.SCD"
               contactInfo="Slowly Changing Dimension;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;3"
               description="Updates a SQL Server Analysis Services data warehouse dimension. Update dimension records that are already present and  insert dimension records that aren't. For example, update the DimProduct table of the AdventureWorksDW OLAP database with data from the Products table in the AdventureWorks OLTP database."
@@ -698,7 +724,7 @@
                   dataType="System.String"
                   description="Specifies the SELECT statement used to create a schema rowset."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT [MANGUON], [TENNGUON] FROM [dbo].[NGUONDULIEU]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT [MANUOC], [TENNUOC] FROM [dbo].[QUOCGIA]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the WHERE clause in the SELECT statement that selects the current row among rows with identical business keys."
@@ -706,7 +732,7 @@
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether historical attribute updates are directed to the transformation output for changing attribute updates."
-                  name="UpdateChangingAttributeHistory">false</property>
+                  name="UpdateChangingAttributeHistory">true</property>
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether the transformation fails when columns with fixed attributes contain changes."
@@ -735,7 +761,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Connections[LookupConnection]"
+                  refId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Connections[LookupConnection]"
                   connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
                   description="Defines the connection to use for lookups in the dimension table"
@@ -743,30 +769,17 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
+                  refId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
                   name="Slowly Changing Dimension Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[MANGUON]"
-                      cachedDataType="i4"
-                      cachedName="MANGUON"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[MANGUON]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          name="ColumnType"
-                          typeConverter="ColumnType">1</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[TENNGUON]"
+                      refId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[TENNUOC]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="30"
-                      cachedName="TENNGUON"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[TENNGUON]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TENNGUON]">
+                      cachedLength="50"
+                      cachedName="TENNUOC"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[TENNUOC]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[TENNUOC]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -774,79 +787,92 @@
                           typeConverter="ColumnType">2</property>
                       </properties>
                     </inputColumn>
+                    <inputColumn
+                      refId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].Columns[MANUOC]"
+                      cachedDataType="i4"
+                      cachedName="MANUOC"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[MANUOC]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANUOC]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">1</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[MANGUON]"
+                      refId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[MANUOC]"
                       dataType="i4"
-                      name="MANGUON" />
+                      name="MANUOC" />
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[TENNGUON]"
+                      refId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input].ExternalColumns[TENNUOC]"
                       codePage="1252"
                       dataType="str"
-                      length="30"
-                      name="TENNGUON" />
+                      length="50"
+                      name="TENNUOC" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Outputs[Unchanged Output]"
+                  refId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Outputs[Unchanged Output]"
                   description="Unchanged rows"
                   exclusionGroup="1"
                   name="Unchanged Output"
-                  synchronousInputId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Outputs[New Output]"
+                  refId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Outputs[New Output]"
                   description="New rows"
                   exclusionGroup="1"
                   name="New Output"
-                  synchronousInputId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Outputs[Fixed Attribute Output]"
+                  refId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Outputs[Fixed Attribute Output]"
                   description="Rows with changes in columns tagged FixedAttribute"
                   exclusionGroup="1"
                   name="Fixed Attribute Output"
-                  synchronousInputId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Outputs[Changing Attribute Updates Output]"
+                  refId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Outputs[Changing Attribute Updates Output]"
                   description="These rows contain new information for ChangingAttribute (Type 1) column changes"
                   exclusionGroup="1"
                   name="Changing Attribute Updates Output"
-                  synchronousInputId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Outputs[Historical Attribute Inserts Output]"
+                  refId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Outputs[Historical Attribute Inserts Output]"
                   description="HistoricalAttribute (Type 2) changes result in these new rows"
                   exclusionGroup="2"
                   name="Historical Attribute Inserts Output"
-                  synchronousInputId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Outputs[Inferred Member Updates Output]"
+                  refId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Outputs[Inferred Member Updates Output]"
                   description="Information to update unpopulated initial dimension row"
                   exclusionGroup="1"
                   name="Inferred Member Updates Output"
-                  synchronousInputId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
+                  synchronousInputId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]">
                   <externalMetadataColumns />
                 </output>
               </outputs>
             </component>
             <component
-              refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS"
+              refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS"
               componentClassID="Microsoft.OLEDBSource"
               contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
               description="OLE DB Source"
-              name="Source_NguonDuLieu_NDS"
+              name="Source_QuocGia_NDS"
               usesDispositions="true"
               version="7">
               <properties>
@@ -866,11 +892,14 @@
                   dataType="System.String"
                   description="The SQL command to be executed."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from NguonDuLieu where (NgayTao &gt; ? and NgayTao &lt;= ?) or (NgayCapNhat &gt; ?  and NgayCapNhat &lt;= ?)</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT        MANUOC, MANGUON, MANUOC_NGUON, TENNUOC, NGAYTAO, NGAYCAPNHAT, TRANGTHAI
+FROM            QUOCGIA
+WHERE        (NGAYTAO &gt; ?) AND (NGAYTAO &lt;= ?) OR
+                         (NGAYCAPNHAT &gt; ?) AND (NGAYCAPNHAT &lt;= ?)</property>
                 <property
                   dataType="System.String"
                   description="The variable that contains the SQL command to be executed."
-                  name="SqlCommandVariable"></property>
+                  name="SqlCommandVariable">User::LSET</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -887,11 +916,11 @@
                 <property
                   dataType="System.String"
                   description="The mappings between the parameters in the SQL command and variables."
-                  name="ParameterMapping">"Parameter0:Input",{532F9A63-2300-4BB9-9570-AF664132B29E};"Parameter1:Input",{CD8183F3-C48B-4CFE-AB6F-1C439A54C67C};"Parameter2:Input",{532F9A63-2300-4BB9-9570-AF664132B29E};"Parameter3:Input",{CD8183F3-C48B-4CFE-AB6F-1C439A54C67C};</property>
+                  name="ParameterMapping">"Parameter0:Input",{3C2F9A95-CCC8-44C5-8680-49F8E5C95F33};"Parameter1:Input",{0A29BC8A-D3F4-4B89-A380-5A4E89CDC4AD};"Parameter2:Input",{3C2F9A95-CCC8-44C5-8680-49F8E5C95F33};"Parameter3:Input",{0A29BC8A-D3F4-4B89-A380-5A4E89CDC4AD};</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Connections[OleDbConnection]"
+                  refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.NDS_LT]"
                   connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.NDS_LT]"
                   description="The OLE DB runtime connection used to access the database."
@@ -899,125 +928,309 @@
               </connections>
               <outputs>
                 <output
-                  refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output]"
+                  refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output]"
                   name="OLE DB Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]"
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]"
                       dataType="dbTimeStamp"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYTAO]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYTAO]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]"
                       name="NGAYTAO"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]"
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]"
                       dataType="dbTimeStamp"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYCAPNHAT]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYCAPNHAT]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]"
                       name="NGAYCAPNHAT"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]"
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]"
                       dataType="bool"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[TRANGTHAI]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].ExternalColumns[TRANGTHAI]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]"
                       name="TRANGTHAI"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]"
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[MANGUON]"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].ExternalColumns[MANGUON]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]"
                       name="MANGUON"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TENNGUON]"
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANUOC]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].ExternalColumns[MANUOC]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANUOC]"
+                      name="MANUOC"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANUOC_NGUON]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[TENNGUON]"
-                      length="30"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TENNGUON]"
-                      name="TENNGUON"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].ExternalColumns[MANUOC_NGUON]"
+                      length="10"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANUOC_NGUON]"
+                      name="MANUOC_NGUON"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[TENNUOC]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].ExternalColumns[TENNUOC]"
+                      length="50"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[TENNUOC]"
+                      name="TENNUOC"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYTAO]"
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYTAO]"
                       dataType="dbTimeStamp"
                       name="NGAYTAO" />
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYCAPNHAT]"
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].ExternalColumns[NGAYCAPNHAT]"
                       dataType="dbTimeStamp"
                       name="NGAYCAPNHAT" />
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[TRANGTHAI]"
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].ExternalColumns[TRANGTHAI]"
                       dataType="bool"
                       name="TRANGTHAI" />
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[MANGUON]"
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].ExternalColumns[MANGUON]"
                       dataType="i4"
                       name="MANGUON" />
                     <externalMetadataColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].ExternalColumns[TENNGUON]"
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].ExternalColumns[MANUOC]"
+                      dataType="i4"
+                      name="MANUOC" />
+                    <externalMetadataColumn
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].ExternalColumns[MANUOC_NGUON]"
                       codePage="1252"
                       dataType="str"
-                      length="30"
-                      name="TENNGUON" />
+                      length="10"
+                      name="MANUOC_NGUON" />
+                    <externalMetadataColumn
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].ExternalColumns[TENNUOC]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="TENNUOC" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output]"
+                  refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output]"
                   isErrorOut="true"
                   name="OLE DB Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[MANGUON]"
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[MANUOC]"
                       dataType="i4"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[MANGUON]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[MANUOC]"
+                      name="MANUOC" />
+                    <outputColumn
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[MANGUON]"
+                      dataType="i4"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[MANGUON]"
                       name="MANGUON" />
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[TENNGUON]"
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[MANUOC_NGUON]"
                       codePage="1252"
                       dataType="str"
-                      length="30"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[TENNGUON]"
-                      name="TENNGUON" />
+                      length="10"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[MANUOC_NGUON]"
+                      name="MANUOC_NGUON" />
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYTAO]"
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[TENNUOC]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[TENNUOC]"
+                      name="TENNUOC" />
+                    <outputColumn
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYTAO]"
                       dataType="dbTimeStamp"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYTAO]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYTAO]"
                       name="NGAYTAO" />
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYCAPNHAT]"
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYCAPNHAT]"
                       dataType="dbTimeStamp"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYCAPNHAT]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[NGAYCAPNHAT]"
                       name="NGAYCAPNHAT" />
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[TRANGTHAI]"
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[TRANGTHAI]"
                       dataType="bool"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[TRANGTHAI]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[TRANGTHAI]"
                       name="TRANGTHAI" />
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Tim kiem ma nguon co ton tai chua?"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[NGUONDULIEU]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[NGUONDULIEU]) [refTable]
+where [refTable].[MANGUON] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">2</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="MANGUON" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="TENNGUON" dataType="DT_STR" length="30" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="TRANGTHAI" dataType="DT_BOOL" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="NGAYTAO" dataType="DT_DBTIMESTAMP" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="NGAYCAPNHAT" dataType="DT_DBTIMESTAMP" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.DDS_LT]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Inputs[Lookup Input].Columns[MANGUON]"
+                      cachedDataType="i4"
+                      cachedName="MANGUON"
+                      lineageId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">MANGUON</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="RedirectRow"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1028,30 +1241,35 @@
           </components>
           <paths>
             <path
-              refId="Package\NguonDuLieu_NDS_DDS.Paths[Changing Attribute Updates Output]"
-              endId="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input]"
+              refId="Package\QuocGia_NDS_DDS.Paths[Changing Attribute Updates Output]"
+              endId="Package\QuocGia_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input]"
               name="Changing Attribute Updates Output"
-              startId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Outputs[Changing Attribute Updates Output]" />
+              startId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Outputs[Changing Attribute Updates Output]" />
             <path
-              refId="Package\NguonDuLieu_NDS_DDS.Paths[Derived Column Output]"
-              endId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
+              refId="Package\QuocGia_NDS_DDS.Paths[Derived Column Output]"
+              endId="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Inputs[Lookup Input]"
               name="Derived Column Output"
-              startId="Package\NguonDuLieu_NDS_DDS\Derived Column.Outputs[Derived Column Output]" />
+              startId="Package\QuocGia_NDS_DDS\Derived Column.Outputs[Derived Column Output]" />
             <path
-              refId="Package\NguonDuLieu_NDS_DDS.Paths[Inferred Member Updates Output]"
-              endId="Package\NguonDuLieu_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input]"
+              refId="Package\QuocGia_NDS_DDS.Paths[Inferred Member Updates Output]"
+              endId="Package\QuocGia_NDS_DDS\OLE DB Command.Inputs[OLE DB Command Input]"
               name="Inferred Member Updates Output"
-              startId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Outputs[Inferred Member Updates Output]" />
+              startId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Outputs[Inferred Member Updates Output]" />
             <path
-              refId="Package\NguonDuLieu_NDS_DDS.Paths[New Output]"
-              endId="Package\NguonDuLieu_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input]"
+              refId="Package\QuocGia_NDS_DDS.Paths[Lookup Match Output]"
+              endId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Inputs[Slowly Changing Dimension Input]"
+              name="Lookup Match Output"
+              startId="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\QuocGia_NDS_DDS.Paths[New Output]"
+              endId="Package\QuocGia_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input]"
               name="New Output"
-              startId="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension.Outputs[New Output]" />
+              startId="Package\QuocGia_NDS_DDS\Slowly Changing Dimension.Outputs[New Output]" />
             <path
-              refId="Package\NguonDuLieu_NDS_DDS.Paths[OLE DB Source Output]"
-              endId="Package\NguonDuLieu_NDS_DDS\Derived Column.Inputs[Derived Column Input]"
+              refId="Package\QuocGia_NDS_DDS.Paths[OLE DB Source Output]"
+              endId="Package\QuocGia_NDS_DDS\Derived Column.Inputs[Derived Column Input]"
               name="OLE DB Source Output"
-              startId="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output]" />
+              startId="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS.Outputs[OLE DB Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -1060,7 +1278,7 @@
       DTS:refId="Package\Set CET"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:DTSID="{34a91c7a-faec-414d-ae72-012dce739c27}"
+      DTS:DTSID="{ec1cfd51-5a90-4b3b-98e7-5dc438c6a0da}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Set CET"
@@ -1069,15 +1287,15 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{C8F9BB7F-2BC8-42B1-AF18-3213FE06E17F}"
-          SQLTask:SqlStatementSource="update data_flow set CET = getdate() where name = 'NguonDuLieu'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:Connection="{F66E8A90-F571-48A9-9734-82389CC07C0B}"
+          SQLTask:SqlStatementSource="UPDATE       data_flow&#xA;SET                CET = GETDATE()&#xA;WHERE        (name = 'QUOCGIA')" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Set LSET"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:DTSID="{1ff7174c-296e-4502-8660-e66952ea3d51}"
+      DTS:DTSID="{2d661f79-8fb9-4647-b69c-cb74a34bf6e6}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Set LSET"
@@ -1086,8 +1304,8 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{C8F9BB7F-2BC8-42B1-AF18-3213FE06E17F}"
-          SQLTask:SqlStatementSource="update data_flow set LSET = CET where name = 'NguonDuLieu'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:Connection="{F66E8A90-F571-48A9-9734-82389CC07C0B}"
+          SQLTask:SqlStatementSource="update data_flow set LSET = CET where name = 'QUOCGIA' " xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -1095,7 +1313,7 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
-      DTS:DTSID="{2515A708-036A-4B4C-BC09-18E9F554B6D3}"
+      DTS:DTSID="{51458e12-e158-4a2b-a02a-cc0d4580e237}"
       DTS:From="Package\Set CET"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
@@ -1103,16 +1321,16 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
-      DTS:DTSID="{ECA2C458-198C-4A7C-944E-B8CFCA650C5E}"
+      DTS:DTSID="{9FFC9EFD-73C0-49D0-8A26-9E49DA2832F7}"
       DTS:From="Package\GET LSET"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
-      DTS:To="Package\NguonDuLieu_NDS_DDS" />
+      DTS:To="Package\QuocGia_NDS_DDS" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
-      DTS:DTSID="{d0919f87-5b52-446c-949b-4882e76fcf61}"
-      DTS:From="Package\NguonDuLieu_NDS_DDS"
+      DTS:DTSID="{94b3620c-74d6-4f24-84bd-7bc09e5ad80c}"
+      DTS:From="Package\QuocGia_NDS_DDS"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 2"
       DTS:To="Package\Set LSET" />
@@ -1132,79 +1350,45 @@
         <NodeLayout
           Size="125,42"
           Id="Package\GET LSET"
-          TopLeft="258.5,190.5" />
+          TopLeft="201.5,189.5" />
         <NodeLayout
-          Size="195,42"
-          Id="Package\NguonDuLieu_NDS_DDS"
-          TopLeft="379,319" />
+          Size="171,42"
+          Id="Package\QuocGia_NDS_DDS"
+          TopLeft="374,285" />
         <NodeLayout
           Size="116,42"
           Id="Package\Set CET"
-          TopLeft="380,90" />
+          TopLeft="76,94" />
         <NodeLayout
           Size="121,42"
           Id="Package\Set LSET"
-          TopLeft="298.5,453.5" />
+          TopLeft="270.5,407.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="438,132">
+          TopLeft="134,136">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-117,58.5"
+              EndConnector="130,53.5"
               Start="0,0"
-              End="-117,51">
+              End="130,46">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.25" />
+                    End="0,22.75" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,25.25"
-                    Point2="0,29.25"
-                    Point3="-4,29.25" />
+                    Point1="0,22.75"
+                    Point2="0,26.75"
+                    Point3="4,26.75" />
                   <mssgle:LineSegment
-                    End="-113,29.25" />
+                    End="126,26.75" />
                   <mssgle:CubicBezierSegment
-                    Point1="-113,29.25"
-                    Point2="-117,29.25"
-                    Point3="-117,33.25" />
+                    Point1="126,26.75"
+                    Point2="130,26.75"
+                    Point3="130,30.75" />
                   <mssgle:LineSegment
-                    End="-117,51" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="321,232.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="155.5,86.5"
-              Start="0,0"
-              End="155.5,79">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,39.25" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,39.25"
-                    Point2="0,43.25"
-                    Point3="4,43.25" />
-                  <mssgle:LineSegment
-                    End="151.5,43.25" />
-                  <mssgle:CubicBezierSegment
-                    Point1="151.5,43.25"
-                    Point2="155.5,43.25"
-                    Point3="155.5,47.25" />
-                  <mssgle:LineSegment
-                    End="155.5,79" />
+                    End="130,46" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1215,30 +1399,64 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="476.5,361">
+          TopLeft="459.5,327">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-117.5,92.5"
+              EndConnector="-128.5,80.5"
               Start="0,0"
-              End="-117.5,85">
+              End="-128.5,73">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,42.25" />
+                    End="0,36.25" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,42.25"
-                    Point2="0,46.25"
-                    Point3="-4,46.25" />
+                    Point1="0,36.25"
+                    Point2="0,40.25"
+                    Point3="-4,40.25" />
                   <mssgle:LineSegment
-                    End="-113.5,46.25" />
+                    End="-124.5,40.25" />
                   <mssgle:CubicBezierSegment
-                    Point1="-113.5,46.25"
-                    Point2="-117.5,46.25"
-                    Point3="-117.5,50.25" />
+                    Point1="-124.5,40.25"
+                    Point2="-128.5,40.25"
+                    Point3="-128.5,44.25" />
                   <mssgle:LineSegment
-                    End="-117.5,85" />
+                    End="-128.5,73" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="264,231.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="195.5,53.5"
+              Start="0,0"
+              End="195.5,46">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.75"
+                    Point2="0,26.75"
+                    Point3="4,26.75" />
+                  <mssgle:LineSegment
+                    End="191.5,26.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="191.5,26.75"
+                    Point2="195.5,26.75"
+                    Point3="195.5,30.75" />
+                  <mssgle:LineSegment
+                    End="195.5,46" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1251,24 +1469,28 @@
     </LayoutInfo>
   </Package>
   <TaskHost
-    design-time-name="Package\NguonDuLieu_NDS_DDS">
+    design-time-name="Package\QuocGia_NDS_DDS">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="206,42"
-          Id="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS"
-          TopLeft="209,5.49999999999989" />
+          Size="251,42"
+          Id="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?"
+          TopLeft="186.5,209.5" />
+        <NodeLayout
+          Size="182,42"
+          Id="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS"
+          TopLeft="221,5.49999999999989" />
         <NodeLayout
           Size="209,42"
-          Id="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension"
-          TopLeft="207.5,209.5" />
+          Id="Package\QuocGia_NDS_DDS\Slowly Changing Dimension"
+          TopLeft="207.5,311.5" />
         <NodeLayout
           Size="154,42"
-          Id="Package\NguonDuLieu_NDS_DDS\Derived Column"
+          Id="Package\QuocGia_NDS_DDS\Derived Column"
           TopLeft="235,107.5" />
         <EdgeLayout
-          Id="Package\NguonDuLieu_NDS_DDS.Paths[OLE DB Source Output]"
+          Id="Package\QuocGia_NDS_DDS.Paths[OLE DB Source Output]"
           TopLeft="312,47.4999999999999">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -1290,7 +1512,31 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\NguonDuLieu_NDS_DDS.Paths[Derived Column Output]"
+          Id="Package\QuocGia_NDS_DDS.Paths[Lookup Match Output]"
+          TopLeft="312,251.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\QuocGia_NDS_DDS.Paths[Derived Column Output]"
           TopLeft="312,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -1313,11 +1559,11 @@
         </EdgeLayout>
         <NodeLayout
           Size="163,42"
-          Id="Package\NguonDuLieu_NDS_DDS\Insert Destination"
-          TopLeft="5.50000000000006,311.5" />
+          Id="Package\QuocGia_NDS_DDS\Insert Destination"
+          TopLeft="5.50000000000006,413.5" />
         <EdgeLayout
-          Id="Package\NguonDuLieu_NDS_DDS.Paths[New Output]"
-          TopLeft="261.75,251.5">
+          Id="Package\QuocGia_NDS_DDS.Paths[New Output]"
+          TopLeft="261.75,353.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1353,11 +1599,11 @@
         </EdgeLayout>
         <NodeLayout
           Size="166,42"
-          Id="Package\NguonDuLieu_NDS_DDS\OLE DB Command"
-          TopLeft="229,311.5" />
+          Id="Package\QuocGia_NDS_DDS\OLE DB Command"
+          TopLeft="229,413.5" />
         <EdgeLayout
-          Id="Package\NguonDuLieu_NDS_DDS.Paths[Inferred Member Updates Output]"
-          TopLeft="312,251.5">
+          Id="Package\QuocGia_NDS_DDS.Paths[Inferred Member Updates Output]"
+          TopLeft="312,353.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1381,11 +1627,11 @@
         </EdgeLayout>
         <NodeLayout
           Size="175,42"
-          Id="Package\NguonDuLieu_NDS_DDS\OLE DB Command 1"
-          TopLeft="455.5,311.5" />
+          Id="Package\QuocGia_NDS_DDS\OLE DB Command 1"
+          TopLeft="455.5,413.5" />
         <EdgeLayout
-          Id="Package\NguonDuLieu_NDS_DDS.Paths[Changing Attribute Updates Output]"
-          TopLeft="362.25,251.5">
+          Id="Package\QuocGia_NDS_DDS.Paths[Changing Attribute Updates Output]"
+          TopLeft="362.25,353.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1423,7 +1669,30 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\NguonDuLieu_NDS_DDS\Source_NguonDuLieu_NDS">
+    design-time-name="Package\QuocGia_NDS_DDS\Tim kiem ma nguon co ton tai chua?">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[NGUONDULIEU]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\QuocGia_NDS_DDS\Source_QuocGia_NDS">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1431,20 +1700,32 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\NguonDuLieu_NDS_DDS\Slowly Changing Dimension">
+    design-time-name="Package\QuocGia_NDS_DDS\Slowly Changing Dimension">
     <Properties>
       <Property>
         <Name>SCDMetadata</Name>
         <Value
           type="q2:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SCDWizardMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionID&gt;{35ED2743-CF12-4EB2-84BD-40A6282FD76D}&lt;/ConnectionID&gt;
-  &lt;TableName&gt;[dbo].[NGUONDULIEU]&lt;/TableName&gt;
+  &lt;ConnectionID&gt;{60DFB2E3-6F4D-47C3-94EA-5B2F685F729E}&lt;/ConnectionID&gt;
+  &lt;TableName&gt;[dbo].[QUOCGIA]&lt;/TableName&gt;
   &lt;InputToColumnsCollection&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;MANGUON&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;None&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANUOC]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;MANUOC&lt;/ColumnName&gt;
       &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
+      &lt;ChangeType&gt;None&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[MANUOC_NGUON]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;MANUOC_NGUON&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
@@ -1460,13 +1741,13 @@
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TENNGUON]&lt;/IdentificationString&gt;
-      &lt;ColumnName&gt;TENNGUON&lt;/ColumnName&gt;
+      &lt;IdentificationString&gt;Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[TENNUOC]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;TENNUOC&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;Source_NguonDuLieu_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Source_QuocGia_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;TRANGTHAI&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
@@ -1478,7 +1759,7 @@
     &lt;anyType xsi:type="xsd:string"&gt;OLE DB Command 1&lt;/anyType&gt;
   &lt;/GeneratedComponentsIdentificationStrings&gt;
   &lt;FailFixedAttribute&gt;false&lt;/FailFixedAttribute&gt;
-  &lt;FailChangeAttribute&gt;false&lt;/FailChangeAttribute&gt;
+  &lt;FailChangeAttribute&gt;true&lt;/FailChangeAttribute&gt;
   &lt;UseStartEndDate&gt;false&lt;/UseStartEndDate&gt;
   &lt;CurrentIndicatorColumn /&gt;
   &lt;InferredIndicatorColumn /&gt;

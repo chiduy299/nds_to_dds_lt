@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{246081E3-1F77-48E0-8D5A-AD4FFCA75EB3}">
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{43F37629-C49E-41DD-93C1-A587E89F7235}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -127,54 +127,6 @@
                   refId="Package\LoaiSanPham_NDS_DDS\Derived Column.Inputs[Derived Column Input]"
                   description="Input to the Derived Column Transformation"
                   name="Derived Column Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\LoaiSanPham_NDS_DDS\Derived Column.Inputs[Derived Column Input].Columns[NGAYTAO]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="NGAYTAO"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]"
-                      truncationRowDisposition="FailComponent"
-                      usageType="readWrite">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">[GETDATE]()</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">GETDATE()</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\LoaiSanPham_NDS_DDS\Derived Column.Inputs[Derived Column Input].Columns[NGAYCAPNHAT]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="NGAYCAPNHAT"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]"
-                      truncationRowDisposition="FailComponent"
-                      usageType="readWrite">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">[GETDATE]()</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">GETDATE()</property>
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
                   <externalMetadataColumns />
                 </input>
               </inputs>
@@ -185,6 +137,52 @@
                   exclusionGroup="1"
                   name="Derived Column Output"
                   synchronousInputId="Package\LoaiSanPham_NDS_DDS\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[ngaycapnhat]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[ngaycapnhat]"
+                      name="ngaycapnhat"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[GETDATE]()</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">GETDATE()</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[ngaytao]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[ngaytao]"
+                      name="ngaytao"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[GETDATE]()</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">GETDATE()</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
                   <externalMetadataColumns />
                 </output>
                 <output
@@ -455,17 +453,17 @@
                       externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[TENLOAISP]"
                       lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TENLOAISP]" />
                     <inputColumn
-                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[NGAYTAO]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[ngaytao]"
                       cachedDataType="dbTimeStamp"
-                      cachedName="NGAYTAO"
+                      cachedName="ngaytao"
                       externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYTAO]"
-                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYTAO]" />
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaytao]" />
                     <inputColumn
-                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[NGAYCAPNHAT]"
+                      refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[ngaycapnhat]"
                       cachedDataType="dbTimeStamp"
-                      cachedName="NGAYCAPNHAT"
+                      cachedName="ngaycapnhat"
                       externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].ExternalColumns[NGAYCAPNHAT]"
-                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYCAPNHAT]" />
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaycapnhat]" />
                     <inputColumn
                       refId="Package\LoaiSanPham_NDS_DDS\Insert Destination.Inputs[OLE DB Destination Input].Columns[TRANGTHAI]"
                       cachedDataType="bool"
@@ -714,17 +712,17 @@
                       externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_1]"
                       lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]" />
                     <inputColumn
-                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[NGAYCAPNHAT]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[ngaycapnhat]"
                       cachedDataType="dbTimeStamp"
-                      cachedName="NGAYCAPNHAT"
+                      cachedName="ngaycapnhat"
                       externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_2]"
-                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]" />
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[ngaycapnhat]" />
                     <inputColumn
-                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[NGAYTAO]"
+                      refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[ngaytao]"
                       cachedDataType="dbTimeStamp"
-                      cachedName="NGAYTAO"
+                      cachedName="ngaytao"
                       externalMetadataColumnId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].ExternalColumns[Param_3]"
-                      lineageId="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[NGAYTAO]" />
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[ngaytao]" />
                     <inputColumn
                       refId="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1.Inputs[OLE DB Command Input].Columns[TENLOAISP]"
                       cachedCodepage="1252"
@@ -1492,6 +1490,32 @@ where [refTable].[MANGUON] = ?</property>
                           name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TENLOAISP]}</property>
                       </properties>
                     </inputColumn>
+                    <inputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[ngaycapnhat]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="ngaycapnhat"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[ngaycapnhat]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaycapnhat]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Inputs[Union All Input 1].Columns[ngaytao]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="ngaytao"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Derived Column.Outputs[Derived Column Output].Columns[ngaytao]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaytao]}</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -1510,7 +1534,7 @@ where [refTable].[MANGUON] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYTAO]}</property>
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaytao]}</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
@@ -1523,7 +1547,7 @@ where [refTable].[MANGUON] = ?</property>
                           containsID="true"
                           dataType="System.Int32"
                           description="Output column lineage ID"
-                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[NGAYCAPNHAT]}</property>
+                          name="OutputColumnLineageID">#{Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaycapnhat]}</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
@@ -1650,6 +1674,16 @@ where [refTable].[MANGUON] = ?</property>
                       length="50"
                       lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[TENLOAISP]"
                       name="TENLOAISP" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaycapnhat]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaycapnhat]"
+                      name="ngaycapnhat" />
+                    <outputColumn
+                      refId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaytao]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\LoaiSanPham_NDS_DDS\Union All.Outputs[Union All Output 1].Columns[ngaytao]"
+                      name="ngaytao" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -1742,7 +1776,7 @@ where [refTable].[MANGUON] = ?</property>
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{1742BBFE-F24E-47B0-B147-20E95CCCA252}"
-          SQLTask:SqlStatementSource="update data_flow set LSET = CET where name = 'LOAISANPHAM' " xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="UPDATE       data_flow&#xA;SET                LSET = CET&#xA;WHERE        (name = 'LOAISANPHAM')" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -1913,35 +1947,7 @@ where [refTable].[MANGUON] = ?</property>
         <NodeLayout
           Size="206,42"
           Id="Package\LoaiSanPham_NDS_DDS\Source_LoaiSanPham_NDS"
-          TopLeft="157.5,5.5" />
-        <NodeLayout
-          Size="163,42"
-          Id="Package\LoaiSanPham_NDS_DDS\Insert Destination"
-          TopLeft="151,821.5" />
-        <NodeLayout
-          Size="163,42"
-          Id="Package\LoaiSanPham_NDS_DDS\Derived Column 1"
-          TopLeft="8.00000000000006,413.5" />
-        <NodeLayout
-          Size="166,42"
-          Id="Package\LoaiSanPham_NDS_DDS\OLE DB Command"
-          TopLeft="5.50000000000006,515.5" />
-        <NodeLayout
-          Size="175,42"
-          Id="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1"
-          TopLeft="294,413.5" />
-        <NodeLayout
-          Size="209,42"
-          Id="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension"
-          TopLeft="128,311.5" />
-        <NodeLayout
-          Size="121,42"
-          Id="Package\LoaiSanPham_NDS_DDS\Union All"
-          TopLeft="172,617.5" />
-        <NodeLayout
-          Size="163,42"
-          Id="Package\LoaiSanPham_NDS_DDS\Derived Column 2"
-          TopLeft="151,719.5" />
+          TopLeft="129.5,5.5" />
         <NodeLayout
           Size="154,42"
           Id="Package\LoaiSanPham_NDS_DDS\Derived Column"
@@ -1951,66 +1957,8 @@ where [refTable].[MANGUON] = ?</property>
           Id="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?"
           TopLeft="107,209.5" />
         <EdgeLayout
-          Id="Package\LoaiSanPham_NDS_DDS.Paths[Historical Attribute Inserts Output]"
-          TopLeft="182.25,353.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-92.75,60"
-              Start="0,0"
-              End="-92.75,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.503937007874" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.503937007874"
-                    Point2="0,20.503937007874"
-                    Point3="-4,20.503937007874" />
-                  <mssgle:LineSegment
-                    End="-88.75,20.503937007874" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-88.75,20.503937007874"
-                    Point2="-92.75,20.503937007874"
-                    Point3="-92.75,24.503937007874" />
-                  <mssgle:LineSegment
-                    End="-92.75,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-121.43138671875,25.503937007874,150.1127734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LoaiSanPham_NDS_DDS.Paths[Derived Column Output2]"
-          TopLeft="232.5,761.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LoaiSanPham_NDS_DDS.Paths[Derived Column Output1]"
-          TopLeft="89.0000000000001,455.5">
+          Id="Package\LoaiSanPham_NDS_DDS.Paths[OLE DB Source Output]"
+          TopLeft="232.5,47.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2052,9 +2000,81 @@ where [refTable].[MANGUON] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="209,42"
+          Id="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension"
+          TopLeft="128,311.5" />
         <EdgeLayout
-          Id="Package\LoaiSanPham_NDS_DDS.Paths[Union All Output 1]"
-          TopLeft="232.5,659.5">
+          Id="Package\LoaiSanPham_NDS_DDS.Paths[Lookup Match Output]"
+          TopLeft="232.5,251.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="163,42"
+          Id="Package\LoaiSanPham_NDS_DDS\Derived Column 1"
+          TopLeft="8.00000000000006,413.5" />
+        <EdgeLayout
+          Id="Package\LoaiSanPham_NDS_DDS.Paths[Historical Attribute Inserts Output]"
+          TopLeft="182.25,353.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-92.75,60"
+              Start="0,0"
+              End="-92.75,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.503937007874" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.503937007874"
+                    Point2="0,20.503937007874"
+                    Point3="-4,20.503937007874" />
+                  <mssgle:LineSegment
+                    End="-88.75,20.503937007874" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-88.75,20.503937007874"
+                    Point2="-92.75,20.503937007874"
+                    Point3="-92.75,24.503937007874" />
+                  <mssgle:LineSegment
+                    End="-92.75,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-121.43138671875,25.503937007874,150.1127734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="166,42"
+          Id="Package\LoaiSanPham_NDS_DDS\OLE DB Command"
+          TopLeft="5.50000000000006,515.5" />
+        <EdgeLayout
+          Id="Package\LoaiSanPham_NDS_DDS.Paths[Derived Column Output1]"
+          TopLeft="89.0000000000001,455.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2074,74 +2094,10 @@ where [refTable].[MANGUON] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LoaiSanPham_NDS_DDS.Paths[OLE DB Source Output]"
-          TopLeft="260.5,47.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-28,60"
-              Start="0,0"
-              End="-28,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26"
-                    Point2="0,30"
-                    Point3="-4,30" />
-                  <mssgle:LineSegment
-                    End="-24,30" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-24,30"
-                    Point2="-28,30"
-                    Point3="-28,34" />
-                  <mssgle:LineSegment
-                    End="-28,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\LoaiSanPham_NDS_DDS.Paths[OLE DB Command Output]"
-          TopLeft="88.5000000000001,557.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="125.166666666667,60"
-              Start="0,0"
-              End="125.166666666667,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.5301794453507" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.5301794453507"
-                    Point2="0,35.5301794453507"
-                    Point3="4,35.5301794453507" />
-                  <mssgle:LineSegment
-                    End="121.166666666667,35.5301794453507" />
-                  <mssgle:CubicBezierSegment
-                    Point1="121.166666666667,35.5301794453507"
-                    Point2="125.166666666667,35.5301794453507"
-                    Point3="125.166666666667,39.5301794453507" />
-                  <mssgle:LineSegment
-                    End="125.166666666667,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="121,42"
+          Id="Package\LoaiSanPham_NDS_DDS\Union All"
+          TopLeft="172,617.5" />
         <EdgeLayout
           Id="Package\LoaiSanPham_NDS_DDS.Paths[New Output]"
           TopLeft="232.5,353.5">
@@ -2179,8 +2135,46 @@ where [refTable].[MANGUON] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\LoaiSanPham_NDS_DDS.Paths[Lookup Match Output]"
-          TopLeft="232.5,251.5">
+          Id="Package\LoaiSanPham_NDS_DDS.Paths[OLE DB Command Output]"
+          TopLeft="88.5000000000001,557.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="125.166666666667,60"
+              Start="0,0"
+              End="125.166666666667,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.5301794453507" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.5301794453507"
+                    Point2="0,35.5301794453507"
+                    Point3="4,35.5301794453507" />
+                  <mssgle:LineSegment
+                    End="121.166666666667,35.5301794453507" />
+                  <mssgle:CubicBezierSegment
+                    Point1="121.166666666667,35.5301794453507"
+                    Point2="125.166666666667,35.5301794453507"
+                    Point3="125.166666666667,39.5301794453507" />
+                  <mssgle:LineSegment
+                    End="125.166666666667,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="163,42"
+          Id="Package\LoaiSanPham_NDS_DDS\Derived Column 2"
+          TopLeft="151,719.5" />
+        <EdgeLayout
+          Id="Package\LoaiSanPham_NDS_DDS.Paths[Union All Output 1]"
+          TopLeft="232.5,659.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2197,11 +2191,39 @@ where [refTable].[MANGUON] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,20.4453125,96.3827734375,11.609375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="163,42"
+          Id="Package\LoaiSanPham_NDS_DDS\Insert Destination"
+          TopLeft="151,821.5" />
+        <EdgeLayout
+          Id="Package\LoaiSanPham_NDS_DDS.Paths[Derived Column Output2]"
+          TopLeft="232.5,761.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="175,42"
+          Id="Package\LoaiSanPham_NDS_DDS\OLE DB Command 1"
+          TopLeft="294,413.5" />
         <EdgeLayout
           Id="Package\LoaiSanPham_NDS_DDS.Paths[Inferred Member Updates Output]"
           TopLeft="282.75,353.5">
@@ -2255,6 +2277,24 @@ where [refTable].[MANGUON] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?">
+    <Properties>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q2:string">[dbo].[NGUONDULIEU]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q3:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\LoaiSanPham_NDS_DDS\Slowly Changing Dimension">
     <Properties>
       <Property>
@@ -2266,43 +2306,43 @@ where [refTable].[MANGUON] = ?</property>
   &lt;TableName&gt;[dbo].[LOAISANPHAM]&lt;/TableName&gt;
   &lt;InputToColumnsCollection&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[MALOAISP]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MALOAISP]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;MALOAISP&lt;/ColumnName&gt;
       &lt;KeyType&gt;BusinessKey&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[MALOAISP_NGUON]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MALOAISP_NGUON]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;MALOAISP_NGUON&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[MANGUON]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[MANGUON]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;MANGUON&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[NGAYCAPNHAT]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Derived Column.Outputs[Derived Column Output].Columns[ngaycapnhat]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;NGAYCAPNHAT&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[NGAYTAO]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Derived Column.Outputs[Derived Column Output].Columns[ngaytao]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;NGAYTAO&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[TENLOAISP]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[TENLOAISP]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;TENLOAISP&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;HistoricalAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
-      &lt;IdentificationString&gt;OLE DB Source.Outputs[OLE DB Source Output].Columns[TRANGTHAI]&lt;/IdentificationString&gt;
+      &lt;IdentificationString&gt;Source_LoaiSanPham_NDS.Outputs[OLE DB Source Output].Columns[TRANGTHAI]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;TRANGTHAI&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;None&lt;/ChangeType&gt;
@@ -2328,24 +2368,6 @@ where [refTable].[MANGUON] = ?</property>
   &lt;DateVariable /&gt;
   &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
 &lt;/SCDWizardMetadata&gt;</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\LoaiSanPham_NDS_DDS\Tim kiem ma nguon co ton tai chua?">
-    <Properties>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q2:string">[dbo].[NGUONDULIEU]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q3:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
